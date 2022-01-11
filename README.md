@@ -1,3 +1,5 @@
-## Personal Website
+## Official Personal Blog Website
+
 ### Overview
-The Official Website for Ronnie Lutaro. This is where he gets to talk about what he's up to lately and all the latest stuff that he's working on.
+
+The Official Personal Blog Website for Ronnie Lutalo. This is where he gets to occasionally write about Software Engineering, 2D/3D Computer Graphics and stuff he's working on.

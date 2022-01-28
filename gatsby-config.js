@@ -29,7 +29,7 @@ function resolvePlugin(plugin, options) {
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: '/blog',
+  pathPrefix: '/ronnielutalo.github.io',
   siteMetadata: {
     siteUrl,
     title: 'Ronnie Lutalo',
@@ -139,9 +139,6 @@ module.exports = {
       head: true,
       anonymize: false
     }),
-
-    // Netlify platform integration
-    resolvePlugin('gatsby-plugin-netlify'),
 
     // Misc plugins/dependencies
     resolvePlugin('gatsby-plugin-image'),

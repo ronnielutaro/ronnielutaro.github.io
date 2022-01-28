@@ -29,6 +29,7 @@ function resolvePlugin(plugin, options) {
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     siteUrl,
     title: 'Ronnie Lutalo',

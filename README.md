@@ -1,5 +1,5 @@
-## Official Personal Blog Website
+## Official Personal Website
 
 ### Overview
 
-This is the code that powers my [Official Personal Blog Website](https://ronnielutalo.github.io/blog/)
+This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/)

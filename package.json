@@ -1,6 +1,5 @@
 {
   "name": "ronnie-blog",
-  "homepage": "https://RonnieLutalo.github.io/",
   "private": true,
   "dependencies": {
     "@octokit/rest": "^18.12.0",

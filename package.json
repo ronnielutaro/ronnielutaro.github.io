@@ -8,7 +8,7 @@
     "@types/react-helmet": "^6.1.4",
     "@types/twemoji": "^12.1.2",
     "date-fns": "^2.27.0",
-    "gatsby": "^4.3.0",
+    "gatsby": "^4.6.0",
     "gatsby-plugin-canonical-urls": "^4.3.0",
     "gatsby-plugin-catch-links": "^4.3.0",
     "gatsby-plugin-disqus": "^1.2.3",
@@ -45,10 +45,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "node-fetch": "^3.1.0",
+    "gh-pages": "^3.2.3",
+    "node-fetch": "^3.2.0",
     "prettier": "^2.5.1",
-    "prettier-plugin-organize-imports": "^2.3.4",
-    "gh-pages": "^3.2.3"
+    "prettier-plugin-organize-imports": "^2.3.4"
   },
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",

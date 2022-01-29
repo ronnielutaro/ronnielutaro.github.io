@@ -2,7 +2,7 @@
 // @ts-check
 
 // ---
-const siteUrl = process.env['SITE_URL'] || 'http://localhost:8000';
+const siteUrl = process.env['SITE_URL'] || 'https://ronnielutalo.github.io/';
 const disqusId = process.env['TYRRRZME_DISQUS'];
 const googleAnalyticsId = process.env['TYRRRZME_GOOGLEANALYTICS'];
 // ---

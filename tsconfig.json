@@ -1,31 +1,21 @@
+// This TSConfig is used for importing gatsby-config.ts in gatsby-config.js and also for TS type checking.
+// @see: https://www.typescriptlang.org/tsconfig
 {
   "compilerOptions": {
-    "target": "es2015",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "allowJs": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "jsx": "react",
     "strict": true,
-    "noImplicitReturns": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
     "esModuleInterop": true,
-    "noEmit": true,
-    "pretty": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true
   },
   "include": [
-    "**/*.js",
-    "**/*.mjs",
-    "**/*.jsx",
-    "**/*.ts",
-    "**/*.tsx"
+    "src/**/*"
   ],
-  "exclude": [
-    "node_modules"
-  ]
 }

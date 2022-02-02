@@ -1,4 +1,5 @@
-__generated__/
 node_modules/
 .cache/
-public/
+public
+.idea
+.vscode

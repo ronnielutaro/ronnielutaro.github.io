@@ -1,8 +1,0 @@
-{
-  "name": "Windows Junk Cleaner",
-  "url": "https://github.com/OSCA-Kampala-Chapter/Windows-Junk-Cleaner.git",
-  "description": "Automatically runs in the background of your Windows-OS Device to routinely clean up Junk files & improve performance, without you having to do it manually every time. ",
-  "stars": 2,
-  "downloads": 3,
-  "language": "C#"
-}

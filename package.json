@@ -4,7 +4,7 @@
   "private": false,
   "author": "Ronnie Lutalo",
   "homepage": "https://ronnielutalo.github.io",
-  "license": "MIT",
+  "license": "GNU",
   "scripts": {
     "fetch-stars": "node ./src/scripts/fetchGitHubStars.js",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'",

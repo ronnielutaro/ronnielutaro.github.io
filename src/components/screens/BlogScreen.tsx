@@ -21,7 +21,7 @@ const BlogScreen = (props: BlogScreenProps): React.ReactElement => {
     <PageLayout>
       <SEO
         title="Blog"
-        description="Articles about Software Engineering, 2D/3D Computer Graphics and Filmmaking"
+        description="Articles about Software Engineering, Computer Graphics & Filmmaking"
       />
       <Row>
         <PageHeader>Blog</PageHeader>

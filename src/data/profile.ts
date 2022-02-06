@@ -4,7 +4,7 @@ import { socialLinks } from './socialLinks';
 export const profile: Profile = {
   firstName: 'Ronnie',
   lastName: 'Lutalo',
-  position: 'Computer Scientist | Software Engineer | 2D/3D Artist',
+  position: 'Computer Scientist | Software Engineer',
   summary: [
     '"Always have version 1.0"',
   ],

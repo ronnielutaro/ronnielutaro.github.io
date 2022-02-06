@@ -28,7 +28,7 @@ const Greeting = (): React.ReactElement => {
     <>
       <p className="font-light">
         Hi there!
-        I&apos;m Ronnie. I spend most of my work hours working on software engineering problems. 
+        I&apos;m Ronnie. 
         I enjoy converting complex problems into technology and experiences that are both intuitive 
         and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas 
         of Computer Science.

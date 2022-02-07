@@ -28,15 +28,15 @@ const Greeting = (): React.ReactElement => {
     <>
       <p className="font-light">
         Hi there!
-        I&apos;m Ronnie. 
-        I enjoy converting complex problems into technology and experiences that are both intuitive 
-        and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas 
+        I&apos;m Ronnie.
+        I enjoy converting complex problems into technology and experiences that are both intuitive
+        and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas
         of Computer Science.
-        Most of my endeavors are in C#/.NET, but every now and then 
-        I code in <i>TypeScript</i> as well. I&apos;m interested in 
+        Most of my endeavors are in C#/.NET, but every now and then
+        I code in <i>TypeScript</i> as well. I&apos;m interested in
         the Cloud, Distributed Systems, Windows, Internet Of Things(IoT) and Computer Graphics.
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
-        I&apos;m also into Filmmaking. 
+        I&apos;m also into Filmmaking.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
       </p>

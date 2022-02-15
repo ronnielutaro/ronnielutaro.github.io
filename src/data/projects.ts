@@ -9,7 +9,7 @@ export const projects: Projects = {
     cover: { srcPath: 'projects/ronnielutalo.github.io/cover.png' },
     startDate: '2021-12-15',
     summary: [
-      'My Official Personal Website, where I get to write about Software Engineering, 2D/3D Computer Graphics and stuff I am working on.',
+      'My Official Personal Website, where I get to write about stuff I\'m working on while sharing my lessons along the way.',
     ],
     tags: [
       { name: 'TypeScript' },

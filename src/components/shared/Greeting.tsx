@@ -28,7 +28,9 @@ const Greeting = (): React.ReactElement => {
     <>
       <p className="font-light">
         Hi there!
-        I&apos;m Ronnie.
+        I&apos;m Ronnie. Welcome to my personal website.
+        I am a Software Engineer based in Uganda,
+        currently building technology and experiences for humans.
         I enjoy converting complex problems into technology and experiences that are both intuitive
         and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas
         of Computer Science.
@@ -40,6 +42,7 @@ const Greeting = (): React.ReactElement => {
         Other tools I work with include: Microsoft SQL Server, React.js, SQL.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
+        The best way to reach me is through email: ronnielutaro@gmail.com
       </p>
 
     </>

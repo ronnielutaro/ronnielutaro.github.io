@@ -37,11 +37,7 @@ const Greeting = (): React.ReactElement => {
         the Cloud, Distributed Systems, Computer Graphics and Artificial Intelligence(AI).
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
-      </p>
-      <p>
         Other tools I work with include: Microsoft SQL Server, React.js, SQL.
-      </p>
-      <p>
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
       </p>

@@ -39,7 +39,7 @@ const Greeting = (): React.ReactElement => {
         the Cloud, Distributed Systems, Computer Graphics and Artificial Intelligence(AI).
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
-        Other tools I work with include: Microsoft SQL Server, React.js, SQL.
+        Other technologies I work with include: Microsoft SQL Server, React.js, Android.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
         The best way to reach me is through email: ronnielutaro@gmail.com

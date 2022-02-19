@@ -34,12 +34,13 @@ const Greeting = (): React.ReactElement => {
         I enjoy converting complex problems into technology and experiences that are both intuitive
         and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas
         of Computer Science.
-        Most of my endeavors are in C#/.NET, but every now and then
-        I code in TypeScript/JavaScript as well. I&apos;m interested in
-        the Cloud, Distributed Systems, Computer Graphics and Artificial Intelligence(AI).
+        Most of my endeavors are in C#, but every now and then
+        I code in TypeScript/JavaScript as well. I&apos;m primarily focused on
+        Distributed Systems and the Cloud.
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
-        Other technologies I work with include: Microsoft SQL Server, React.js, Android.
+        Other technologies I work with include: ASP.NET Core, WPF, Microsoft SQL Server, PostgreSQL, 
+        React.js, ML.NET, Blazor WebAssembly, Android, Docker.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
         The best way to reach me is through email: ronnielutaro@gmail.com

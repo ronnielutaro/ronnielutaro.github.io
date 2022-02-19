@@ -39,7 +39,7 @@ const Greeting = (): React.ReactElement => {
         Distributed Systems and the Cloud.
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
-        Other technologies I work with include: ASP.NET Core, WPF, Microsoft SQL Server, PostgreSQL, 
+        Other technologies I work with include: ASP.NET Core, WPF, Microsoft SQL Server, PostgreSQL,
         React.js, ML.NET, Blazor WebAssembly, Android, Docker.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.

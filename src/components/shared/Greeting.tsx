@@ -35,8 +35,7 @@ const Greeting = (): React.ReactElement => {
         and exciting. Over time I&apos;ve worked on {projectsLinkElement} in different areas
         of Computer Science.
         Most of my endeavors are in C#, but every now and then
-        I code in TypeScript/JavaScript as well. I&apos;m primarily focused on
-        Distributed Systems and the Cloud.
+        I code in TypeScript/JavaScript as well.
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
         Other technologies I work with include: ASP.NET Core, WPF, SQL, NoSQL,

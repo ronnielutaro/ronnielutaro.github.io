@@ -32,10 +32,10 @@ const Greeting = (): React.ReactElement => {
         I am a Software Engineer based in Uganda,
         currently building technology and experiences for humans.
         I enjoy converting complex problems into technology and experiences that are both intuitive
-        and exciting. Over time I&apos;ve worked on Enterprise Software for different industries
-        including Real Estate and Agriculture.
+        and exciting. Over time I&apos;ve worked on Software in different areas of Computer Science.
         Most of my endeavors are in C#, but every now and then
         I code in TypeScript/JavaScript as well.
+        I&apos;m primarily interested in Distributed Systems and the Cloud.
         My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
         I&apos;m also into Filmmaking.
         Other technologies I work with include: ASP.NET Core, WPF, SQL, NoSQL,

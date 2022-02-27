@@ -12,11 +12,11 @@ const Greeting = (): React.ReactElement => {
     url: `${routes.blog.path}/`,
   };
 
-  const oscaKampalaLink: Link = {
+  const oscaKampalaLink = {
     url: 'https://oscakampala.github.io',
   };
 
-  const dotnetCommunityLink: Link = {
+  const dotnetCommunityLink = {
     url: 'https://chat.whatsapp.com/D8MPoXMBDvj9c9MLfoxOnL',
   };
 
@@ -34,13 +34,13 @@ const Greeting = (): React.ReactElement => {
 
   const dotNetCommunity = (
     <div className="inline-block">
-      <HyperLink link={dotnetCommunityLink} target="_blank" rel="noopener noreferrer" className="underline font-semibold">community</HyperLink>
+      <HyperLink link={dotnetCommunityLink} className="underline font-semibold">community</HyperLink>
     </div>
   );
 
   const oscaKampala = (
     <div className="inline-block">
-      <HyperLink link={oscaKampalaLink} target="_blank" rel="noopener noreferrer" className="underline font-semibold">OSCA Kampala</HyperLink>
+      <HyperLink link={oscaKampalaLink} className="underline font-semibold">OSCA Kampala</HyperLink>
     </div>
   );
 
@@ -60,7 +60,7 @@ const Greeting = (): React.ReactElement => {
         I currently run a .NET Developer {dotNetCommunity} in Kampala
         under {oscaKampala}.
         Outside of that, I&apos;m also into Filmmaking.
-        In my spare time I love dancing.
+        In my spare time I enjoy dancing.
         Other technologies I work with include: ASP.NET Core, WPF, PostgreSQL,
         Microsoft SQL Server, React.js, Android, Azure DevOps, Microsoft Azure
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while

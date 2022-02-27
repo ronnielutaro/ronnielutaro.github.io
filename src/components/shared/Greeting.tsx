@@ -12,6 +12,14 @@ const Greeting = (): React.ReactElement => {
     url: `${routes.blog.path}/`,
   };
 
+  const oscaKampalaLink: Link = {
+    url: 'https://oscakampala.github.io',
+  };
+
+  const dotnetCommunityLink: Link = {
+    url: 'https://chat.whatsapp.com/D8MPoXMBDvj9c9MLfoxOnL',
+  };
+
   const projectsLinkElement = (
     <div className="inline-block">
       <HyperLink link={projectsLink} className="underline font-semibold">projects</HyperLink>
@@ -24,6 +32,18 @@ const Greeting = (): React.ReactElement => {
     </div>
   );
 
+  const dotNetCommunity = (
+    <div className="inline-block">
+      <HyperLink link={dotnetCommunityLink} target="_blank" rel="noopener noreferrer" className="underline font-semibold">community</HyperLink>
+    </div>
+  );
+
+  const oscaKampala = (
+    <div className="inline-block">
+      <HyperLink link={oscaKampalaLink} target="_blank" rel="noopener noreferrer" className="underline font-semibold">OSCA Kampala</HyperLink>
+    </div>
+  );
+
   return (
     <>
       <p className="font-light">
@@ -32,15 +52,15 @@ const Greeting = (): React.ReactElement => {
         I am a Software Engineer based in Uganda,
         currently building technology and experiences for humans.
         I enjoy converting complex problems into technology and experiences that are both intuitive
-        and exciting. Over time I've worked on Software for Tech products.
+        and exciting. Over time I&apos;ve worked on Software for Tech products.
         Most of my endeavors are in C#, but every now and then
         I code in TypeScript/JavaScript as well.
         I&apos;m primarily interested in Distributed Systems and the Cloud.
         My professional hobbies involve contributing to Open-Source and blogging.
-        I currently run a .NET Developer community in Kampala
-        under OSCA KampalaOutside of that,
-        I&apos;m also into Filmmaking.
-        In my spare time I love dancing and playing the piano.
+        I currently run a .NET Developer {dotNetCommunity} in Kampala
+        under {oscaKampala}.
+        Outside of that, I&apos;m also into Filmmaking.
+        In my spare time I love dancing.
         Other technologies I work with include: ASP.NET Core, WPF, PostgreSQL,
         Microsoft SQL Server, React.js, Android, Azure DevOps, Microsoft Azure
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while

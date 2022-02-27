@@ -32,14 +32,17 @@ const Greeting = (): React.ReactElement => {
         I am a Software Engineer based in Uganda,
         currently building technology and experiences for humans.
         I enjoy converting complex problems into technology and experiences that are both intuitive
-        and exciting. Over time I&apos;ve worked on Software in different areas of Computer Science.
+        and exciting. Over time I've worked on Software for Tech products.
         Most of my endeavors are in C#, but every now and then
         I code in TypeScript/JavaScript as well.
         I&apos;m primarily interested in Distributed Systems and the Cloud.
-        My professional hobbies involve contributing to Open-Source and blogging. Outside of that,
+        My professional hobbies involve contributing to Open-Source and blogging.
+        I currently run a .NET Developer community in Kampala
+        under OSCA KampalaOutside of that,
         I&apos;m also into Filmmaking.
-        Other technologies I work with include: ASP.NET Core, WPF, SQL, NoSQL,
-        React.js, Android, Microsoft Azure.
+        In my spare time I love dancing and playing the piano.
+        Other technologies I work with include: ASP.NET Core, WPF, PostgreSQL,
+        Microsoft SQL Server, React.js, Android, Azure DevOps, Microsoft Azure
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
         The best way to reach me is through email: ronnielutaro@gmail.com

@@ -4,6 +4,4 @@
 
 ### Overview
 
-This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/).
-
-This site is where I get to write [articles](https://ronnielutalo.github.io/blog/) about stuff I'm working on while sharing my lessons along the way.
+This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/). This site is where I get to write [articles](https://ronnielutalo.github.io/blog/) about stuff I'm working on while sharing my lessons along the way.

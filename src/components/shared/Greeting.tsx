@@ -40,7 +40,7 @@ const Greeting = (): React.ReactElement => {
 
   const oscaKampala = (
     <div className="inline-block">
-      <HyperLink link={oscaKampalaLink} className="underline font-semibold">OSCA Kampala</HyperLink>
+      <HyperLink link={oscaKampalaLink} className="underline font-semibold">O.S.C.A Kampala</HyperLink>
     </div>
   );
 
@@ -57,7 +57,7 @@ const Greeting = (): React.ReactElement => {
         I code in TypeScript/JavaScript as well.
         I&apos;m primarily interested in Distributed Systems and the Cloud.
         My professional hobbies involve contributing to Open-Source and blogging.
-        I currently run a .NET Developer {dotNetCommunity} in Kampala
+        I currently as well lead and run a .NET/C# Developer {dotNetCommunity} in Kampala
         under {oscaKampala}.
         Outside of that, I&apos;m also into Filmmaking.
         In my spare time I enjoy dancing.

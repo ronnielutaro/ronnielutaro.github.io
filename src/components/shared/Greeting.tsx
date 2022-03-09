@@ -61,8 +61,7 @@ const Greeting = (): React.ReactElement => {
         under {oscaKampala}.
         Outside of that, I&apos;m also into Filmmaking.
         In my spare time I enjoy dancing.
-        Other technologies I work with include: ASP.NET Core, WPF, PostgreSQL,
-        Microsoft SQL Server, React.js, Azure DevOps, Microsoft Azure.
+        Other technologies I work with include: ASP.NET Core, WPF, React.js.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
         The best way to reach me is through email: ronnielutaro@gmail.com

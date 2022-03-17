@@ -46,4 +46,24 @@ export const projects: Projects = {
       repo: 'ExpenseTracker',
     },
   },
+  WindowsJunkCleaner: {
+    id: 'Windows-Junk-Cleaner',
+    name: '🧹 Windows Junk Cleaner',
+    srcURL: { url: 'https://github.com/OSCA-Kampala-Chapter/Windows-Junk-Cleaner' },
+    demoURL: { url: 'https://github.com/OSCA-Kampala-Chapter/Windows-Junk-Cleaner' },
+    cover: { srcPath: 'projects/WindowsJunkCleaner/cover.png' },
+    startDate: '2022-02-06',
+    summary: [
+      'Software that automatically runs in the background of your Windows-OS Device to routinely clean up Junk files & improve performance, without you having to do it manually every time.',
+    ],
+    tags: [
+      { name: 'C#' },
+      { name: '.NET' },
+      { name: 'WPF' },
+    ],
+    gitHubRepo: {
+      owner: 'RonnieLutalo',
+      repo: 'ExpenseTracker',
+    },
+  },
 };

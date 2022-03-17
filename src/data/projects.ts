@@ -45,5 +45,5 @@ export const projects: Projects = {
       owner: 'RonnieLutalo',
       repo: 'ExpenseTracker',
     },
-  }
+  },
 };

@@ -24,4 +24,26 @@ export const projects: Projects = {
       repo: 'ronnielutalo.github.io',
     },
   },
+  ExpenseTracker: {
+    id: 'Expense-Tracker',
+    name: '💲 Expense Tracker',
+    srcURL: { url: 'https://github.com/RonnieLutalo/ExpenseTracker' },
+    demoURL: { url: 'https://github.com/RonnieLutalo/ExpenseTracker' },
+    cover: { srcPath: 'projects/ExpenseTracker/cover.png' },
+    startDate: '2022-03-03',
+    summary: [
+      'An intuitive Solution aimed at helping users keep track of their expenses easily with as much free as possible the burden of manual calculation',
+    ],
+    tags: [
+      { name: 'C#' },
+      { name: 'ASP.NET' },
+      { name: 'Clean-Architecture' },
+      { name: 'React.js' },
+      { name: 'MVC-Razor-Pages' },
+    ],
+    gitHubRepo: {
+      owner: 'RonnieLutalo',
+      repo: 'ExpenseTracker',
+    },
+  }
 };

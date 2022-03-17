@@ -62,7 +62,7 @@ export const projects: Projects = {
       { name: 'WPF' },
     ],
     gitHubRepo: {
-      owner: 'RonnieLutalo',
+      owner: 'OSCA-Kampala-Chapter',
       repo: 'Windows-Junk-Cleaner',
     },
   },

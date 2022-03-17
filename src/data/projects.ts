@@ -63,7 +63,7 @@ export const projects: Projects = {
     ],
     gitHubRepo: {
       owner: 'RonnieLutalo',
-      repo: 'ExpenseTracker',
+      repo: 'Windows-Junk-Cleaner',
     },
   },
 };

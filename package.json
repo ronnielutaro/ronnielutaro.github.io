@@ -8,7 +8,7 @@
   "scripts": {
     "fetch-stars": "node ./src/scripts/fetchGitHubStars.js",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix --ext .js,.jsx .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
     "type": "tsc",
     "develop": "gatsby develop",
     "develop-secure": "gatsby develop --https",

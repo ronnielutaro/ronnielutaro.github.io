@@ -64,6 +64,8 @@ const Greeting = (): React.ReactElement => {
         Other technologies I work with include: ASP.NET Core, React.js, SQL and NoSQL Databases.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while
         sharing my lessons along the way.
+        I also write about my personal {projectsLink}. Most of them are solutions
+        I created to solve a particular problem I was personally facing.
         The best way to reach me is through email: ronnielutaro@gmail.com
       </p>
 

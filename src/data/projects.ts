@@ -64,5 +64,6 @@ export const projects: Projects = {
     gitHubRepo: {
       owner: 'OSCA-Kampala-Chapter',
       repo: 'Windows-Junk-Cleaner',
+    },
   },
 };

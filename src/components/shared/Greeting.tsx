@@ -59,7 +59,7 @@ const Greeting = (): React.ReactElement => {
         My professional hobbies involve contributing to Open-Source and blogging.
         I currently as well lead and run a .NET/C# Developer {dotNetCommunity} in Kampala
         under {oscaKampala}.
-        Outside of that, I&apos;m also into Filmmaking.
+        Outside of that, I&apos;m also into Art.
         In my spare time I enjoy dancing.
         Other technologies I work with include: ASP.NET Core, WPF, React.js.
         This site is where I get to write {blogLinkElement} about stuff I&apos;m working on while

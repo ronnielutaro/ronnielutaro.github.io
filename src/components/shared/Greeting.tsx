@@ -52,7 +52,7 @@ const Greeting = (): React.ReactElement => {
         I am a Software Engineer based in Uganda,
         currently building technology and experiences for humans.
         I enjoy converting complex problems into technology and experiences that are both intuitive
-        and exciting. Over time I&apos;ve worked on Software for Tech products.
+        and exciting.
         Most of my endeavors are in C#, but every now and then
         I code in TypeScript/JavaScript as well.
         I&apos;m primarily interested in Distributed Systems and the Cloud.

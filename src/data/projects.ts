@@ -32,7 +32,7 @@ export const projects: Projects = {
     cover: { srcPath: 'projects/ExpenseTracker/cover.png' },
     startDate: '2022-03-03',
     summary: [
-      'Solution aimed at helping users keep track of their expenses easily with as much free as possible the burden of manual calculation.',
+      'Solution attempts to free the user from as much as possible the burden of manual calculation while keeping track of their expenditure easily.',
     ],
     tags: [
       { name: 'C#' },

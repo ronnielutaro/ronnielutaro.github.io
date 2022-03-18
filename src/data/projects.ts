@@ -26,7 +26,7 @@ export const projects: Projects = {
   },
   ExpenseTracker: {
     id: 'Expense-Tracker',
-    name: '💲 Expense Tracker',
+    name: 'Expense Tracker',
     srcURL: { url: 'https://github.com/RonnieLutalo/ExpenseTracker' },
     demoURL: { url: 'https://github.com/RonnieLutalo/ExpenseTracker' },
     cover: { srcPath: 'projects/ExpenseTracker/cover.png' },
@@ -48,7 +48,7 @@ export const projects: Projects = {
   },
   WindowsJunkCleaner: {
     id: 'WindowsJunkCleaner',
-    name: '🧹 Windows Junk Cleaner',
+    name: 'Windows Junk Cleaner',
     srcURL: { url: 'https://github.com/OSCA-Kampala-Chapter/Windows-Junk-Cleaner' },
     demoURL: { url: 'https://github.com/OSCA-Kampala-Chapter/Windows-Junk-Cleaner' },
     cover: { srcPath: 'projects/WindowsJunkCleaner/cover.png' },
@@ -61,5 +61,8 @@ export const projects: Projects = {
       { name: '.NET' },
       { name: 'WPF' },
     ],
+    gitHubRepo: {
+      owner: 'OSCA-Kampala-Chapter',
+      repo: 'Windows-Junk-Cleaner',
   },
 };

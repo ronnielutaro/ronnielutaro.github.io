@@ -6,7 +6,7 @@ export const profile: Profile = {
   lastName: 'Lutalo',
   position: 'Software Engineer',
   summary: [
-    '"Always have version 1.0"',
+    '"Distributed Systems | Cloud"',
   ],
   avatar: {
     srcPath: 'profile/avatar_500x500.jpg',
@@ -19,6 +19,7 @@ export const profile: Profile = {
     { name: '.NET' },
     { name: 'C#' },
     { name: 'TypeScript' },
+    { name: 'JavaScript' },
   ],
   socialLinks,
 };

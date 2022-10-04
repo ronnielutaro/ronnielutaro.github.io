@@ -13,4 +13,4 @@ This is the code that powers my [Official Personal Website](https://ronnielutalo
 - TypeScript/JavaScript
 - Gatsby.js
 - React.js
-- Tailwind CSS
+- CSS

@@ -14,3 +14,4 @@ This is the code that powers my [Official Personal Website](https://ronnielutalo
 - Gatsby.js
 - React.js
 - CSS
+- Graph-QL

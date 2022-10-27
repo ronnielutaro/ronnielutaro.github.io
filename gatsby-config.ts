@@ -10,7 +10,28 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   pathPrefix: "/ronnielutalo.github.io",
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: [
+    "gatsby-plugin-image", 
+    
+    "gatsby-plugin-sitemap", 
+    
+    "gatsby-plugin-mdx", 
+    
+    "gatsby-transformer-remark", 
+    
+    "gatsby-plugin-sharp", 
+    
+    "gatsby-transformer-sharp", 
+
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
+    },
+    
+    {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",

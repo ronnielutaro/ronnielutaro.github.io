@@ -8,8 +8,7 @@ This is the code that powers my [Official Personal Website](https://ronnielutalo
 
 #### Technologies Used 🚀
 
-- TypeScript/JavaScript
-- Gatsby.js
+- JavaScript/TypeScript
 - React.js
+- Next.js
 - CSS
-- Graph-QL

@@ -1,5 +1,7 @@
 ## Official Personal Website
 
+[![Deploy Next.js site to Pages](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/CI.yml/badge.svg)](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/CI.yml)
+
 ### Overview
 
 This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/) where I get to [write](https://ronnielutalo.github.io/blog/) about new stuff I'm working on while sharing my lessons along the way.

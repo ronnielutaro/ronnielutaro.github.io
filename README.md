@@ -1,6 +1,6 @@
 ## Official Personal Website
 
-[![Deploy Next.js site to Pages](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/CI.yml/badge.svg)](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/CI.yml)
+[![Deploy Next.js site to Pages](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/nextjs-deployment.yml/badge.svg)](https://github.com/RonnieLutalo/ronnielutalo.github.io/actions/workflows/nextjs-deployment.yml)
 
 ### Overview
 

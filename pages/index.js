@@ -13,18 +13,18 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello world! I’m <strong>Ronnie</strong>, a
+          Hello world! I&apos;m <strong>Ronnie</strong>, a
           Software Engineer, C# .NET developer and XR enthusiast
           from Kampala, Uganda. Driven by desire and curiosity for creating Technology and
           Experiences that unlock new possibilities.
-          Over time, I've worked on various projects using a wide range
+          Over time, I&apos;ve worked on various projects using a wide range
           of Tools & Technologies like C#, ASP.NET Core,
           Entity Framework Core,
           JavaScript/TypeScript, React.js/Next.js,
           Microsoft Azure (Cloud), WPF, SQL.
         </p>
         <p>
-          When I'm not coding, you can find me blogging here,
+          When I&apos;m not coding, you can find me blogging here,
           shooting adventure and night scenes, working on a Motion Picture or Extended
           Reality (XR) stuff.
           The best way to reach me is through email at ronnielutaro@gmail.com

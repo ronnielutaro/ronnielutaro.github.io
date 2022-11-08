@@ -1,10 +1,12 @@
 {
   "name": "ronnielutalo.github.io",
+  "homepage": "https://ronnielutalo.github.io/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },

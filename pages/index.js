@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hello world! I&apos;m <strong>Ronnie</strong>, a
-          Software Engineer, C# .NET developer and Visual Artist
+          Software Engineer and Visual Artist
           from Kampala, Uganda. Driven by desire and curiosity for creating Technology and
           Experiences that unlock new possibilities.
           Over time, I&apos;ve worked on various projects using a wide range

@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hello world! I&apos;m <strong>Ronnie</strong>, a
-          Software Engineer, C# .NET developer and XR enthusiast
+          Software Engineer, C# .NET developer and Visual Artist
           from Kampala, Uganda. Driven by desire and curiosity for creating Technology and
           Experiences that unlock new possibilities.
           Over time, I&apos;ve worked on various projects using a wide range
@@ -25,9 +25,9 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           When I&apos;m not coding, you can find me blogging here,
-          shooting adventure and night scenes, working on a Motion Picture or Extended
-          Reality (XR) stuff.
-          The best way to reach me is through email at ronnielutaro@gmail.com
+          or working on Visual Arts.
+          I&apos;m always excited to talk about Technology and Visual Arts so feel free to reach out.
+          The best way to reach me is through email (ronnielutaro@gmail.com).
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

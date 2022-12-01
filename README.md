@@ -11,5 +11,9 @@ This is the code that powers my [Official Personal Website](https://ronnielutalo
 #### Technologies Used 🚀
 
 - JavaScript/TypeScript
-- React.js/Next.js
+- React.js(Next.js)
 - CSS
+
+#### Useful Links
+
+- [Predefined Character Entities](http://www.madore.org/~david/computers/unicode/htmlent.html)

@@ -3,7 +3,6 @@ import HomeOwlSlider from '../components/UI/HomeOwlSlider';
 import HomeOwlSlider2 from '../components/UI/HomeOwlSlider2';
 import ImgCarouselContent from '../components/UI/ImgCarouselContent';
 import HomeTab from '../components/UI/HomeTab';
-import Counter from '../components/UI/Counter';
 import TestimonialCarousel from '../components/UI/TestimonialCarousel';
 import FormStyle from '../components/UI/FormStyle';
 

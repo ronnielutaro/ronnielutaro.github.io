@@ -5,7 +5,6 @@ import '../styles/templete.css';
 import '../styles/skin/skin-1.css';
 import '../plugins/slick/slick.min.css';
 import '../plugins/slick/slick-theme.min.css';
-import 'react-modal-video/css/modal-video.min.css';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import Layout from "../components/Layout/Layout";
 

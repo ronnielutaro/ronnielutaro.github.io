@@ -111,7 +111,7 @@ class TestimonialCarousel extends Component{
 								<div className="testimonial-text">
 									<p>
 										Ronnie is very detail-oriented and produced great results for the company.
-										He is a very hard working and forcussed person. I have loved working with him at AIESEC.
+										He is a very hard working and focussed person. I have loved working with him at AIESEC.
 										He is a commited person who leaves no regrets for his work but only appreciations.
 									</p>
 								</div>

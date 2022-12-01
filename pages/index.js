@@ -57,7 +57,7 @@ class index extends Component{
                         <div className="section-full content-inner" style={{ backgroundImage: "/images/background/bg-map.jpg", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">
                                 <div className="section-head text-center">
-                                    <h2 className="box-title m-tb0">What&apos;s It Like Working With Ronnie?<span className="bg-primary"></span></h2>
+                                    <h2 className="box-title m-tb0">What It&apos;s Like Working With Ronnie?<span className="bg-primary"></span></h2>
                                     <h4 className="text-gray-dark">Here&apos;s what others say...</h4>
                                 </div>
                                 <div className="section-content m-b30 ">

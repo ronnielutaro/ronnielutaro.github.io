@@ -4,7 +4,7 @@
 
 ### Overview
 
-This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/) where I get to [write](https://ronnielutalo.github.io/blog/) about new stuff I'm working on while sharing lessons learnt along the way.
+This is the code that powers my [Official Personal Website](https://ronnielutalo.github.io/blog/) where I get to [write](https://ronnielutalo.github.io/blog/) about new and recent stuff I'm working on while sharing lessons learnt along the way.
 
 ![ronnielutalo.github.io](https://ronnielutalo.github.io/images/site-meta-image-01.png)
 

@@ -70,6 +70,7 @@ class Footer extends Component {
                                             <li><Link href="#" className="site-button linkedin circle mr-1"><i className="fa fa-linkedin"></i></Link></li>
                                             <li><Link href="#" className="site-button instagram circle mr-1"><i className="fa fa-instagram"></i></Link></li>
                                             <li><Link href="#" className="site-button twitter circle mr-1"><i className="fa fa-twitter"></i></Link></li>
+                                            <li><Link href="#" className="site-button github circle mr-1"><i className="fa fa-github"></i></Link></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -7,7 +7,7 @@ export default function HeaderMenu() {
 		<ul className="nav navbar-nav">
 			<li className="active"><Link href="/"><span className="ti-home"></span> </Link></li>
 			
-			<li><Link href="#">About </Link></li>
+			<li><Link href="/about">About </Link></li>
 			
 			<li><Link href="#">Work <i className="fa fa-chevron-down"></i></Link>
 				<ul className="sub-menu left">

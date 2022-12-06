@@ -30,7 +30,7 @@ class Footer extends Component {
                                     <div className="widget widget_services border-0">
                                         <h5 className="m-b30 text-white">Useful Link</h5>
                                         <ul>
-                                            <li><Link href="#">About Me</Link></li>
+                                            <li><Link href="/about">About Me</Link></li>
                                             <li><Link href="/blog/engineering">Engineering Blog </Link></li>
                                             <li><Link href="#">Visual Arts Blog</Link></li>
                                             <li><Link href="/">Home</Link></li>

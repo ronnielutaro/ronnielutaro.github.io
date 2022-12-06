@@ -31,9 +31,9 @@ class Footer extends Component {
                                         <h5 className="m-b30 text-white">Useful Link</h5>
                                         <ul>
                                             <li><Link href="#">About Me</Link></li>
-                                            <li><Link href="#">Engineering Blog </Link></li>
+                                            <li><Link href="/blog/engineering">Engineering Blog </Link></li>
                                             <li><Link href="#">Visual Arts Blog</Link></li>
-                                            <li><Link href="#">Home</Link></li>
+                                            <li><Link href="/">Home</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -65,12 +65,12 @@ class Footer extends Component {
                                             </form>
                                         </div>
                                         <ul className="list-inline m-a0">
-                                            <li><Link href="#" className="site-button facebook circle mr-1"><i className="fa fa-facebook"></i></Link></li>
-                                            <li><Link href="#" className="site-button whatsapp circle mr-1"><i className="fa fa-whatsapp"></i></Link></li>
-                                            <li><Link href="#" className="site-button linkedin circle mr-1"><i className="fa fa-linkedin"></i></Link></li>
-                                            <li><Link href="#" className="site-button instagram circle mr-1"><i className="fa fa-instagram"></i></Link></li>
-                                            <li><Link href="#" className="site-button twitter circle mr-1"><i className="fa fa-twitter"></i></Link></li>
-                                            <li><Link href="#" className="site-button github circle mr-1"><i className="fa fa-github"></i></Link></li>
+                                            <li><a href="https://www.facebook.com/RLutalo/" target="_blank" className="site-button facebook circle mr-1" rel="noreferrer"><i className="fa fa-facebook" rel="noreferrer"></i></a></li>
+                                            <li><a href="https://wa.me/+256772622186" target="_blank" className="site-button whatsapp circle mr-1" rel="noreferrer"><i className="fa fa-whatsapp" rel="noreferrer"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/ronnie-lutalo-b73240aa/" target="_blank" className="site-button linkedin circle mr-1" rel="noreferrer"><i className="fa fa-linkedin"></i></a></li>
+                                            <li><a href="https://www.instagram.com/r_lutalo/" target="_blank" className="site-button instagram circle mr-1" rel="noreferrer"><i className="fa fa-instagram" rel="noreferrer"></i></a></li>
+                                            <li><a href="https://twitter.com/r_lutalo" target="_blank" className="site-button twitter circle mr-1" rel="noreferrer"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="https://github.com/RonnieLutalo" target="_blank" className="site-button github circle mr-1" rel="noreferrer"><i className="fa fa-github"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

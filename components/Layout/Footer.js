@@ -42,7 +42,6 @@ class Footer extends Component {
                                         <h5 className="m-b30 text-white ">Contact Me</h5>
                                         <ul>
                                             <li><i className="ti-location-pin"></i><strong>address</strong> Kampala, Uganda </li>
-                                            <li><i className="ti-mobile"></i><strong>phone</strong>+256772622186 (WhatsApp)</li>
                                             <li style={{textTransform: "lowercase"}}><i className="ti-email"></i><strong>email</strong>ronnielutaro@gmail.com</li>
                                         </ul>
                                     </div>
@@ -66,7 +65,6 @@ class Footer extends Component {
                                         </div>
                                         <ul className="list-inline m-a0">
                                             <li><a href="https://www.facebook.com/RLutalo/" target="_blank" className="site-button facebook circle mr-1" rel="noreferrer"><i className="fa fa-facebook" rel="noreferrer"></i></a></li>
-                                            <li><a href="https://wa.me/+256772622186" target="_blank" className="site-button whatsapp circle mr-1" rel="noreferrer"><i className="fa fa-whatsapp" rel="noreferrer"></i></a></li>
                                             <li><a href="https://www.linkedin.com/in/ronnie-lutalo-b73240aa/" target="_blank" className="site-button linkedin circle mr-1" rel="noreferrer"><i className="fa fa-linkedin"></i></a></li>
                                             <li><a href="https://www.instagram.com/r_lutalo/" target="_blank" className="site-button instagram circle mr-1" rel="noreferrer"><i className="fa fa-instagram" rel="noreferrer"></i></a></li>
                                             <li><a href="https://twitter.com/r_lutalo" target="_blank" className="site-button twitter circle mr-1" rel="noreferrer"><i className="fa fa-twitter"></i></a></li>

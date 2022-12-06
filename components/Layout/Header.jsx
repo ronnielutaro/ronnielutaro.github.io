@@ -45,7 +45,6 @@ class Header extends Component {
                             <div className="row d-flex justify-content-between">
                                 <div className="dlab-topbar-left">
                                     <ul>
-                                        <li><i className="flaticon-phone-call m-r5"></i> +256772622186</li>
                                         <li><i className="ti-location-pin m-r5"></i> Kampala, Uganda</li>
                                     </ul>
                                 </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from "next/link";
-import HeaderMenu from "../../UI/HeaderMenu";
+import HeaderMenu from "../UI/HeaderMenu";
 
 class Header extends Component {
 

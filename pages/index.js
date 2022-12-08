@@ -10,7 +10,7 @@ import {
     siteImage, 
     twitterUsername,
     siteURL 
-} from '../../constants/siteMeta';
+} from '../constants/siteMeta';
 
 class index extends Component{
 	render(){

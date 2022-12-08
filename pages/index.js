@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import HomeOwlSlider from '../components/UI/HomeOwlSlider';
 import TestimonialCarousel from '../components/UI/TestimonialCarousel';
 import FormStyle from '../components/UI/FormStyle';
+import PortfolioCarousel from '../components/UI/PortfolioCarousel';
 
 class index extends Component{
 	render(){
@@ -30,8 +31,9 @@ class index extends Component{
                                                     really mean anything, hahah...
                                                     Well, over time I&apos;ve worked on various projects involving development of Technology, 
                                                     mainly Software Systems. 
-                                                    I mostly code using C# but also work with a few other Tools like ASP.NET Core, EF Core,
-                                                    WPF, JavaScript/TypeScript, React.js(Next.js), Unity 3D Engine.
+                                                    I mostly code using C# but also work with a few other Tools like ASP.NET Core, SQL,
+                                                    Entity Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js,
+                                                    Unity 3D Engine.
                                                     When I&apos;m not coding, you can find me blogging or working
                                                     on Visual Arts (2D/3D Computer Graphics).
                                                 </p>
@@ -50,6 +52,17 @@ class index extends Component{
                             </div>
                         </div>
                         {/* <!-- What I Do End--> */}
+                        {/* <!-- Our Portfolio --> */}
+                        <div className="section-full content-inner-1 mfp-gallery">
+                            <div className="container-fluid">
+                                <div className="section-head text-center">
+                                    <h2 className="box-title m-tb0">Stuff I&apos;ve Worked On?<span className="bg-primary"></span></h2>
+                                    <h4 className="text-gray-dark m-b10">Some recent work...</h4>
+                                </div>
+                                    <PortfolioCarousel />
+                            </div>
+                        </div>
+                        {/* <!-- Our Portfolio END --> */}
                         {/* <!-- Testimonials --> */}
                         <div className="section-full content-inner" style={{ backgroundImage: "/images/background/bg-map.jpg", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">

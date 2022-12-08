@@ -3,10 +3,28 @@ import PageTitle from '../../components/Layout/PageTitle';
 import Link from 'next/link';
 import { getSortedPostsData } from '../../helpers/posts'
 import Date from '../../components/UI/Date'
+import Head from 'next/head';
+import { profile } from '../../data/profile';
+import { 
+    defaultSiteTitle, 
+    twitterUsername,
+    siteURL,
+    siteImage 
+} from '../../constants/siteMeta';
 
 export default function engineering({ allPostsData }) {
     return (
         <>
+            <Head>
+                <title>{`${defaultSiteTitle} | Engineering Blog`}</title>
+                <meta name="description" content={`Articles on Engineering written by ${profile.fullName}`} key="desc" />
+                <meta property="og:title" content={`${defaultSiteTitle} | Engineering Blog`} />
+                <meta property="og:description" content={`Articles on Engineering written by ${profile.fullName}`} />
+                <meta property="og:url" content={`${siteURL}blog/engineering`} />
+                <meta property="og:image" content={siteImage} />
+                <meta name="twitter:creator" content={twitterUsername} />
+                <meta name="twitter:description" content={`Articles on Engineering written by ${profile.fullName}`} />
+            </Head>
             <div className="page-content bg-white">
                 <div className="dlab-bnr-inr dlab-bnr-inr-sm overlay-primary bg-pt" style={{ backgroundImage: "/images/banner/bnr3.jpg" }}>
                     <PageTitle motherMenu='Engineering Blog' activeMenu='Engineering Blog' />

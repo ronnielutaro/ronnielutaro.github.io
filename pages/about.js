@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import PageTitle from '../components/Layout/PageTitle';
 import TestimonialCarousel from '../components/UI/TestimonialCarousel';
 import FormStyle from '../components/UI/FormStyle';
+import Head from 'next/head';
+import { profile } from '../data/profile';
+import { 
+    defaultSiteTitle, 
+    defaultSiteDescription,
+    twitterUsername,
+    siteURL 
+} from '../constants/siteMeta';
 
 //Images
 import bg2 from '../public/images/background/bg-map.jpg';
@@ -13,6 +21,16 @@ class About extends Component {
     render() {
         return (
             <>
+                <Head>
+                    <title>{`${defaultSiteTitle} | About`}</title>
+                    <meta name="description" content={defaultSiteDescription} key="desc" />
+                    <meta property="og:title" content={`${defaultSiteTitle} | About`} />
+                    <meta property="og:description" content={defaultSiteDescription} />
+                    <meta property="og:url" content={`${siteURL}about`} />
+                    <meta property="og:image" content={profile.avatar.src} />
+                    <meta name="twitter:creator" content={twitterUsername} />
+                    <meta name="twitter:description" content={defaultSiteDescription} />
+                </Head>
                 <div className="page-content bg-white">
 					<div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: `url(${banner})` }}>
 						<PageTitle motherMenu='About Me' activeMenu='About Me' />
@@ -23,7 +41,7 @@ class About extends Component {
                                 <div className="row ">
                                     <div className="col-lg-5 col-md-4 about-img">
                                         <picture>
-                                            <img src="/images/about/me.jpg" data-tilt alt="" />
+                                            <img src={profile.avatar.src} data-tilt alt={profile.avatar.alt} />
                                         </picture>
                                     </div>
                                     <div className="col-lg-7 col-md-8">

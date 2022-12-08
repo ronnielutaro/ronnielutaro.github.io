@@ -2,13 +2,27 @@ import React from 'react';
 import PageTitle from '../../components/Layout/PageTitle';
 import { getAllPostIds, getPostData } from '../../helpers/posts'
 import Date from '../../components/UI/Date'
-
 import Link from 'next/link';
+import Head from 'next/head';
+import { profile } from '../../data/profile';
+import { 
+    twitterUsername
+} from '../../constants/siteMeta';
 
 export default function Post({ postData }) {
 
     return (
         <>
+            <Head>
+                <title>{`${postData.title} | ${profile.fullName}`}</title>
+                <meta name="description" content={postData.excerpt} key="desc" />
+                <meta property="og:title" content={`${postData.title} | ${profile.fullName}`} />
+                <meta property="og:description" content={postData.excerpt} />
+                <meta property="og:image" content={postData.coverImage} />
+                <meta property="og:type" content="article" />
+                <meta name="twitter:creator" content={twitterUsername} />
+                <meta name="twitter:description" content={postData.excerpt} />   
+            </Head>
             <div className="page-content bg-white">
                 <div className="dlab-bnr-inr dlab-bnr-inr-sm overlay-primary bg-pt" style={{ backgroundImage: "/images/banner/bnr5.jpg" }}>
                     <PageTitle motherMenu='Blog' activeMenu='Blog Details' />

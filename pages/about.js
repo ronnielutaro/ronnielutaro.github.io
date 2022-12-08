@@ -11,12 +11,6 @@ import {
     siteURL 
 } from '../constants/siteMeta';
 
-//Images
-import bg2 from '../public/images/background/bg-map.jpg';
-import bg1 from '../public/images/background/bg1.jpg';
-
-import banner from '../public/images/banner/bnr2.jpg';
-
 class About extends Component {
     render() {
         return (
@@ -32,7 +26,7 @@ class About extends Component {
                     <meta name="twitter:description" content={defaultSiteDescription} />
                 </Head>
                 <div className="page-content bg-white">
-					<div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: `url(${banner})` }}>
+					<div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: `images/banner/bnr2.jpg` }}>
 						<PageTitle motherMenu='About Me' activeMenu='About Me' />
 					</div>	
                     <div className="content-block">
@@ -70,7 +64,7 @@ class About extends Component {
                         </div>
 							
                         {/* <!-- Testimonials --> */}
-                        <div className="section-full content-inner" style={{ backgroundImage: `url(${bg2})`, backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+                        <div className="section-full content-inner" style={{ backgroundImage: `images/background/bg-map.jpg`, backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">
                                 <div className="section-head text-center">
                                     <h2 className="box-title m-tb0">What It&apos;s Like Working With Ronnie?<span className="bg-primary"></span></h2>
@@ -82,7 +76,7 @@ class About extends Component {
                             </div>
                         </div>
                         {/* <!-- Testimonials END --> */}
-                        <div className="section-full overlay-primary-dark bg-img-fix" style={{ backgroundImage: `url(${bg1})` }}>
+                        <div className="section-full overlay-primary-dark bg-img-fix" style={{ backgroundImage: `images/background/bg1.jpg` }}>
                             <FormStyle />
                         </div>
                     </div>

@@ -50,10 +50,11 @@ class About extends Component {
                                                 </p>
                                                 <p>
                                                     I spend my time working on Algorithmic problems, coding, designing and sketching User Experience diagrams
-                                                    or product designs in my note book. Outside of that, you might find me exploring Computer Graphics or cheering my favorite
+                                                    or product designs in my note book, or researching about Computer Graphics. 
+                                                    Outside all that, you might find me exploring Computer Graphics or cheering my favorite
                                                     sports team. In case you want to know more about what kind of stuff I work on, consider navigating the other parts
-                                                    of the website or simply explore the Work menu as well. In case you get curious and want to know more, consider shooting me an 
-                                                    email at ronnielutaro@gmail.com and I&apos;ll get back to you shortly.
+                                                    of the website or simply explore the Work menu as well. In case you get curious and want to know more,
+                                                    consider shooting me an email at ronnielutaro@gmail.com and I&apos;ll get back to you shortly.
                                                 </p>
                                             </div>
                                         </div>

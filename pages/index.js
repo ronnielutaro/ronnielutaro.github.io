@@ -48,13 +48,12 @@ class index extends Component{
                                                     <p>
                                                         There&apos;s actually much more to me than just a few fancy titles that don&apos;t 
                                                         really mean anything, hahah...
-                                                        Well, over time I&apos;ve worked on various projects involving development of Technology, 
-                                                        mainly Software Systems. 
+                                                        Well, over time I&apos;ve worked on various projects involving Software Engineering, 
+                                                        Web Design, Brand Design, Product Design, Computer Graphics (2D/3D). 
                                                         I mostly code using C# but also work with a few other Tools like ASP.NET Core, SQL,
                                                         Entity Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js,
                                                         Unity 3D Engine.
-                                                        When I&apos;m not coding, you can find me blogging or working
-                                                        on Visual Arts (2D/3D Computer Graphics).
+                                                        Outside of all that, you can find me blogging or cheering my favorite sports team.
                                                     </p>
                                                     <p>
                                                         If you&apos;re looking to explore some of my recent work, then you&apos;re in the right place.

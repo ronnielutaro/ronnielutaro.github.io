@@ -5,18 +5,41 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper, useLightbox} from 'simple-react-lightbox';
 
 //Images
-const contentBlog =[
-	{images: '/images/project/pic1.jpg', },
-	{images: '/images/project/pic2.jpg', },
-	{images: '/images/project/pic3.jpg', },
-	{images: '/images/project/pic4.jpg', },
-	{images: '/images/project/pic5.jpg', },	
+const projectsData =[
+	{
+		images: '/images/project/pic1.jpg',
+		projectSummary: `Worked on Official Website for Tours and Travel Agency - Marvel Safaris UG`,
+		projectCategory: `Web Design`
+	},
+	{
+		images: '/images/project/pic2.jpg',
+		projectSummary: `Worked on Official Website for Logistics Tech company - Agri-Logistics Ltd`,
+		projectCategory: `Web Design` 
+	},
+	{
+		images: '/images/project/pic3.jpg',
+		projectSummary: 'Worked on Official Brand Logo for Fashion Brand - Jessified UK',
+		projectCategory: `Brand Design`
+	 },
+	{
+		images: '/images/project/pic4.jpg',
+		projectSummary: `Actively Working on an Open Source software solution that automatically 
+		runs in the background of your Windows-OS Device to routinely clean up Junk files & improve performance,
+		without you having to do it manually every time.`,
+		projectCategory: `Software Engineering`
+	 },
+	{
+		images: '/images/project/pic5.jpg',
+		projectSummary: `Worked on this personal Website to help me share stuff I'm working on with the world, along with some lessons
+		learnt along the way.`,
+		projectCategory: `Web Design`
+	 },	
 ]
 //Light Gallery on icon click 
 const Iconimage = props => {
 	const { openLightbox } = useLightbox()
 	return (
-    <Link href="#" onClick={() => openLightbox(props.imageToOpen)} className="mfp-link" title="Title Come Here">
+    <Link href="#" onClick={() => openLightbox(props.imageToOpen)} className="mfp-link" title="Explore Project Details">
       <i className="ti-fullscreen icon-bx-xs"></i>
     </Link>
   )
@@ -64,7 +87,7 @@ class PortfolioCarousel extends Component{
 				<SimpleReactLightbox>
 					<SRLWrapper >
 						<Slider className="img-carousel-content owl-carousel text-center text-white owl-none " {...settings}>
-							{contentBlog.map((item, index)=>(
+							{projectsData.map((item, index)=>(
 								<div className="item p-3" key={index}>
 									<div className="dlab-box portfolio-box">
 										<div className="dlab-media dlab-img-effect dlab-img-overlay1"> 
@@ -76,9 +99,9 @@ class PortfolioCarousel extends Component{
 											</div>
 											<div className="overlay-bx">
 												<div className="overlay-icon text-white"> 
-													<h5>Project Name</h5>
-													<p className="m-b10">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
-													<a href="https://www.google.com/" target="bank" className="mfp-link" title="Title Come Here"> <i className="ti-fullscreen icon-bx-xs"></i> </a>
+													<h5>{item.projectCategory}</h5>
+													<p className="m-b10">{item.projectSummary}</p>
+													<a href="https://www.google.com/" target="bank" className="mfp-link" title="Explore Project Details"> <i className="ti-fullscreen icon-bx-xs"></i> </a>
 													<a href="https://www.google.com/" target="bank"><i className="ti-arrow-top-right icon-bx-xs"></i></a>
 												</div>
 											</div>

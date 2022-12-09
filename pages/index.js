@@ -48,12 +48,16 @@ class index extends Component{
                                                     <p>
                                                         There&apos;s actually much more to me than just a few fancy titles that don&apos;t 
                                                         really mean anything, hahah...
-                                                        Well, over time I&apos;ve worked on various projects involving Software Engineering, 
-                                                        Web Design, Brand Design, Product Design, Computer Graphics (2D/3D). 
+                                                        Over time I&apos;ve worked on various projects involving Software Engineering, 
+                                                        Web Design, Brand Design, Product Design, Computer Graphics (2D/3D).
+                                                        Most people believe Art and Science are separate fields. Of which that&apos;s academically correct
+                                                        but I personally believe everything is connected to everything else. 
+                                                        Art & Science have no reason to be disconnected and that&apos;s
+                                                        exactly how I view the world and approach life.
                                                         I mostly code using C# but also work with a few other Tools like ASP.NET Core, SQL,
                                                         Entity Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js,
                                                         Unity 3D Engine.
-                                                        Outside of all that, you can find me blogging or cheering my favorite sports team.
+                                                        Outside all that, you can find me blogging or cheering my favorite sports team.
                                                     </p>
                                                     <p>
                                                         If you&apos;re looking to explore some of my recent work, then you&apos;re in the right place.

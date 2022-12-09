@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "data/socialLinks.js", "data/profile.js", "data/portfolio.js", "constants/links.js", "constants/siteMeta.js"],
   "exclude": ["node_modules"]
 }

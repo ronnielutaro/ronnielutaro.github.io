@@ -1,7 +1,6 @@
-import { Profile } from '../types/Profile';
 import { socialLinks } from './socialLinks';
 
-export const profile: Profile = {
+export const profile = {
   firstName: 'Ronnie',
   lastName: 'Lutalo',
   fullName: 'Ronnie Lutalo',

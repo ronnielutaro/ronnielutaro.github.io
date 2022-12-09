@@ -9,30 +9,30 @@ const projectsData =[
 	{
 		images: '/images/project/pic1.jpg',
 		projectSummary: `Worked on Official Website for Tours and Travel Agency - Marvel Safaris UG`,
-		projectCategory: `Web Design`
+		projectCategory: `Software`
 	},
 	{
 		images: '/images/project/pic2.jpg',
 		projectSummary: `Worked on Official Website for Logistics Tech company - Agri-Logistics Ltd`,
-		projectCategory: `Web Design` 
+		projectCategory: `Software` 
 	},
 	{
 		images: '/images/project/pic3.jpg',
 		projectSummary: 'Worked on Official Brand Logo for Fashion Brand - Jessified UK',
-		projectCategory: `Brand Design`
+		projectCategory: `Design`
 	 },
 	{
 		images: '/images/project/pic4.jpg',
 		projectSummary: `Actively Working on an Open Source software solution that automatically 
 		runs in the background of your Windows-OS Device to routinely clean up Junk files & improve performance,
 		without you having to do it manually every time.`,
-		projectCategory: `Software Engineering`
+		projectCategory: `Software`
 	 },
 	{
 		images: '/images/project/pic5.jpg',
 		projectSummary: `Worked on this personal Website to help me share stuff I'm working on with the world, along with some lessons
 		learnt along the way.`,
-		projectCategory: `Web Design`
+		projectCategory: `Software`
 	 },	
 ]
 //Light Gallery on icon click 

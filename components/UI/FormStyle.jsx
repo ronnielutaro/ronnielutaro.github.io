@@ -9,7 +9,7 @@ class FormStyle extends Component{
 						<div className="col-lg-5 col-md-5 content-inner chosesus-content text-white">
 							<h2 className="box-title m-b15 " >Let&apos;s get in touch<span className="bg-primary"></span></h2>
 							<p className="font-16 op8" >
-								I&apos;m always excited to talk about Technology and Visual Arts so feel free to reach out,
+								I&apos;m always excited to talk about Technology and Visual Arts so feel free to reach out anytime,
 								even if you&apos;re just saying Hello! because I&apos;m always excited to meet new people.
 								The best way to reach me is through email - ronnielutaro@gmail.com.
 							</p>

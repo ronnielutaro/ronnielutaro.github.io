@@ -18,12 +18,12 @@ const projectsData =[
 	},
 	{
 		images: '/images/project/pic3.jpg',
-		projectSummary: 'Worked on Official Brand Logo for Fashion Brand - Jessified UK',
+		projectSummary: 'Worked on Official Logo & Branding Style guides for Fashion Brand - Jessified UK',
 		projectCategory: `Design`
 	 },
 	{
 		images: '/images/project/pic4.jpg',
-		projectSummary: `Actively Working on an Open Source software solution that automatically 
+		projectSummary: `Actively Working on Open Source solution that automatically 
 		runs in the background of your Windows-OS Device to routinely clean up Junk files & improve performance,
 		without you having to do it manually every time.`,
 		projectCategory: `Software`

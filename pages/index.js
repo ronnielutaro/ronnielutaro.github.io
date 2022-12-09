@@ -46,7 +46,7 @@ class index extends Component{
                                                 </div>
                                                 <div className="col-lg-8">
                                                     <p>
-                                                        There&apos;s actually much more to me than just a few fancy titles that don&apos;t 
+                                                        There&apos;s actually much more to me than just a few fancy titles which don&apos;t 
                                                         really mean anything, hahah...
                                                         Over time I&apos;ve worked on various projects involving Software Engineering, 
                                                         Design, Computer Graphics (2D/3D).

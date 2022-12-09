@@ -79,7 +79,7 @@ class index extends Component{
                                 <div className="container-fluid">
                                     <div className="section-head text-center">
                                         <h2 className="box-title m-tb0">Stuff I&apos;ve Worked On?<span className="bg-primary"></span></h2>
-                                        <h4 className="text-gray-dark m-b10">Some recent work...</h4>
+                                        <h4 className="text-gray-dark m-b10">Explore recent work...</h4>
                                     </div>
                                         <PortfolioCarousel />
                                 </div>

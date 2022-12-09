@@ -49,7 +49,7 @@ class index extends Component{
                                                         There&apos;s actually much more to me than just a few fancy titles that don&apos;t 
                                                         really mean anything, hahah...
                                                         Over time I&apos;ve worked on various projects involving Software Engineering, 
-                                                        Web Design, Brand Design, Product Design, Computer Graphics (2D/3D).
+                                                        Design, Computer Graphics (2D/3D).
                                                         Most people believe Art and Science are separate fields. Of which that&apos;s academically correct
                                                         but I personally believe everything is connected to everything else. 
                                                         Art & Science have no reason to be disconnected and that&apos;s

@@ -1,13 +1,13 @@
 import React from 'react';
-import PageTitle from '../components/Layout/PageTitle';
-import { getAllPostIds, getPostData } from '../helpers/posts'
-import Date from '../components/UI/Date'
+import PageTitle from '../../components/Layout/PageTitle';
+import { getAllPostIds, getPostData } from '../../helpers/posts'
+import Date from '../../components/UI/Date'
 import Link from 'next/link';
 import Head from 'next/head';
-import { profile } from '../data/profile';
+import { profile } from '../../data/profile';
 import { 
     twitterUsername
-} from '../constants/siteMeta';
+} from '../../constants/siteMeta';
 
 export default function Post({ postData }) {
 

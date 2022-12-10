@@ -50,7 +50,6 @@ class Header extends Component {
                                 </div>
                                 <div className="dlab-topbar-right">
                                     <ul>
-                                        <li><i className="ti-twitter m-r5"></i> @r_lutalo</li>
                                         <li><i className="ti-email m-r5"></i> ronnielutaro@gmail.com</li>
                                     </ul>
                                 </div>
@@ -74,12 +73,6 @@ class Header extends Component {
                                     <span></span>
                                     <span></span>
                                 </button>
-
-                                <div className="extra-nav">
-                                    <div className="extra-cell">
-                                        <Link href="#" className="dez-page site-button primary">Inquire Now </Link>
-                                    </div>
-                                </div>
 
                                 <div className="header-nav navbar-collapse collapse myNavbar justify-content-end" id="navbarNavDropdown">
 									<div className="logo-header mostion d-md-block d-lg-none">

@@ -12,5 +12,8 @@ export const profile = {
   location: {
     name: 'Kampala, Uganda',
   },
+  contact: {
+    email: 'ronnielutaro@gmail.com',
+  },
   socialLinks,
 };

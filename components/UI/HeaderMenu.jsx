@@ -5,7 +5,7 @@ export default function HeaderMenu() {
   return (
 	<div>
 		<ul className="nav navbar-nav">
-			<li className="active"><Link href="/"><span className="ti-home"></span> </Link></li>
+			<li className="active"><Link href="/"><span className="ti-home"></span> Home </Link></li>
 			
 			<li><Link href="/about">About </Link></li>
 			
@@ -16,12 +16,7 @@ export default function HeaderMenu() {
 				</ul>
 			</li>
 			
-			<li><Link href="#">Blog <i className="fa fa-chevron-down"></i></Link>
-				<ul className="sub-menu left">
-					<li><Link href="/blog/engineering" className="dez-page">Engineering  </Link></li>
-					<li><Link href="#" className="dez-page">Design</Link></li>
-				</ul>
-			</li>
+			<li><Link href="/blog">Blog </Link></li>
 		</ul>
 	</div>
   )

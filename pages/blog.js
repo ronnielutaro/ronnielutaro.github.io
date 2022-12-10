@@ -1,38 +1,38 @@
 import React from 'react';
-import PageTitle from '../../components/Layout/PageTitle';
+import PageTitle from '../components/Layout/PageTitle';
 import Link from 'next/link';
-import { getSortedPostsData } from '../../helpers/posts'
-import Date from '../../components/UI/Date'
+import { getSortedPostsData } from '../helpers/posts'
+import Date from '../components/UI/Date'
 import Head from 'next/head';
-import { profile } from '../../data/profile';
+import { profile } from '../data/profile';
 import { 
     defaultSiteTitle, 
     twitterUsername,
     siteURL,
     siteImage 
-} from '../../constants/siteMeta';
+} from '../constants/siteMeta';
 
-export default function engineering({ allPostsData }) {
+export default function blog({ allPostsData }) {
     return (
         <>
             <Head>
-                <title>{`${defaultSiteTitle} | Engineering Blog`}</title>
-                <meta name="description" content={`Articles on Engineering written by ${profile.fullName}`} key="desc" />
-                <meta property="og:title" content={`${defaultSiteTitle} | Engineering Blog`} />
-                <meta property="og:description" content={`Articles on Engineering written by ${profile.fullName}`} />
-                <meta property="og:url" content={`${siteURL}blog/engineering`} />
+                <title>{`${defaultSiteTitle} | Blog`}</title>
+                <meta name="description" content={`Articles written by ${profile.fullName}`} key="desc" />
+                <meta property="og:title" content={`${defaultSiteTitle} | Blog`} />
+                <meta property="og:description" content={`Articles written by ${profile.fullName}`} />
+                <meta property="og:url" content={`${siteURL}blog`} />
                 <meta property="og:image" content={siteImage} />
                 <meta name="twitter:creator" content={twitterUsername} />
-                <meta name="twitter:description" content={`Articles on Engineering written by ${profile.fullName}`} />
+                <meta name="twitter:description" content={`Articles written by ${profile.fullName}`} />
             </Head>
             <div className="page-content bg-white">
                 <div className="dlab-bnr-inr dlab-bnr-inr-sm overlay-primary bg-pt" style={{ backgroundImage: "/images/banner/bnr3.jpg" }}>
-                    <PageTitle motherMenu='Engineering Blog' activeMenu='Engineering Blog' />
+                    <PageTitle motherMenu='Blog' activeMenu='Blog' />
                 </div>
                 <div className="content-area">
                     <div className="container">
                         <div className="row">
-                            {/* Engineering Blog Posts List Start */}
+                            {/* Blog Posts List Start */}
                             <div className="col-lg-9">
                                 {allPostsData.map(({id, date, title, excerpt, coverImage, coverImageDescription})=>(	
                                     <div className="blog-post blog-md clearfix" key={id}>
@@ -84,7 +84,7 @@ export default function engineering({ allPostsData }) {
                                     </ul>
                                 </div>
                             </div>
-                            {/* Engineering Blog Posts List End */}
+                            {/* Blog Posts List End */}
                             <div className="col-lg-3 sticky-top">
 
                             {/* Sidebar Start */}

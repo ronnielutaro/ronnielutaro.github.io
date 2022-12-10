@@ -10,6 +10,7 @@ import {
     twitterUsername,
     siteURL 
 } from '../constants/siteMeta';
+import Link from 'next/link';
 
 class About extends Component {
     render() {
@@ -52,9 +53,9 @@ class About extends Component {
                                                     I spend my time working on Algorithmic problems, coding, designing and sketching User Experience diagrams
                                                     or product designs in my note book, or researching about Computer Graphics. 
                                                     Outside all that, you might find me exploring Computer Graphics or cheering my favorite
-                                                    sports team. In case you want to know more about what kind of stuff I work on, consider navigating the other parts
-                                                    of the website or simply explore the Work menu as well. In case you get curious and want to know more,
-                                                    consider shooting me an email at ronnielutaro@gmail.com and I&apos;ll get back to you shortly.
+                                                    sports team. In case you want to know more about what kind of stuff I work on, consider <Link href="/work" className='text-primary'>exploring my Work section</Link>.
+                                                    In case you get curious and want to know more,
+                                                    consider <Link href="/contact" className='text-primary'>reaching out</Link> and I&apos;ll get back to you shortly.
                                                 </p>
                                             </div>
                                         </div>
@@ -64,22 +65,6 @@ class About extends Component {
                             </div>
                         </div>
 							
-                        {/* <!-- Testimonials --> */}
-                        <div className="section-full content-inner" style={{ backgroundImage: `images/background/bg-map.jpg`, backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-                            <div className="container">
-                                <div className="section-head text-center">
-                                    <h2 className="box-title m-tb0">What It&apos;s Like Working With Ronnie?<span className="bg-primary"></span></h2>
-                                    <h4 className="text-gray-dark">Here&apos;s what others say...</h4>
-                                </div>
-                                <div className="section-content m-b30 ">
-                                    <TestimonialCarousel />
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- Testimonials END --> */}
-                        <div className="section-full overlay-primary-dark bg-img-fix" style={{ backgroundImage: `images/background/bg1.jpg` }}>
-                            <FormStyle />
-                        </div>
                     </div>
                 </div>
             </>

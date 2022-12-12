@@ -1,4 +1,7 @@
-import React, { Fragment } from "react";
+import React from "react";
+import CustomCursor from "../UI/CustomCursor";
+import PreLoader from "../UI/preloader";
+import Header from "./Header";
 
 /* -------------------------------------------
 
@@ -10,11 +13,12 @@ Portfolio:  https://ronnielutalo.github.io
 
 const Layout = (props) => {
   return (
-    <Fragment>
-      {/* <Header /> */}
+    <>
+      <Header />
+      <CustomCursor />
+      <PreLoader />
       <div>{props.children}</div>
-      {/* <Footer /> */}
-    </Fragment>
+    </>
   );
 };
 

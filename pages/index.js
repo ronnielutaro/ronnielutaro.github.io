@@ -6,7 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
-import React,{Fragment} from 'react';
+import React from 'react';
 import Head from 'next/head';
 import { 
     defaultSiteTitle, 
@@ -18,7 +18,7 @@ import {
 
 export default function index() {
   return (
-    <Fragment>
+    <>
         <Head>
             <title>{`${defaultSiteTitle} | Home`}</title>
             <meta name="description" content={defaultSiteDescription} key="desc" />
@@ -29,6 +29,6 @@ export default function index() {
             <meta name="twitter:creator" content={twitterUsername} />
             <meta name="twitter:description" content={defaultSiteDescription} />
         </Head>
-    </Fragment>
+    </>
   )
 }

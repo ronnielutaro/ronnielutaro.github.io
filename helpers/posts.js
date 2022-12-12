@@ -1,3 +1,11 @@
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
+
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'

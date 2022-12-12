@@ -1,4 +1,10 @@
-// @flow
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
 
 export const socialLinks = {
     LinkedIn: 'https://www.linkedin.com/in/ronnie-lutalo-b73240aa/',

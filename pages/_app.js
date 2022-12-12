@@ -1,33 +1,31 @@
-import React, { useEffect, useState } from "react";
-import '../styles/plugins.css';
-import '../styles/style.css';
-import '../styles/templete.css';
-import '../styles/skin/skin-1.css';
-import '../plugins/slick/slick.min.css';
-import '../plugins/slick/slick-theme.min.css';
-import { useScrollPosition } from '@n8tb1t/use-scroll-position'
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
+
+import React from "react";
+{/* Bootstrap */}
+import '../styles/bootstrap.min.css';
+{/* Main */}
+import '../styles/main.css';
+{/* Font Awesome */}
+import '../styles/font-awesome.css';
+{/* Swiper */}
+import '../styles/swiper.min.css';
+{/* Elements */}
+import '../styles/elements.css';
+{/* Media queries */}
+import '../styles/media-queries.css';
+import '../styles/primary-color/coral.css';
+import '../styles/overlay-color/blue.css';
+{/* ronnie-theme css */}
+import '../styles/ronnie-theme.css';
 import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }) {
-    {/* const [body_, setbody_] = useState();
-    const [header, setHeader] = useState("fixed");
-    const [header_, setHeader_] = useState();
-    let scrollPosition = useScrollPosition();
-
-    useEffect(() => {
-      setbody_(document.querySelector("body"));
-      setHeader_(document.getElementsByClassName("main-bar-wraper"));
-      }, []);
-
-
-    var element = document.getElementById("fix-header"); 	
-      
-    if(typeof(element) != 'undefined' && element != null){
-      header === "fixed" && scrollPosition > 10
-        ? header_ && header_[0].classList.add("is-fixed")
-        : header_ && header_[0].classList.remove("is-fixed"); 	
-    }
-  */}
   return (
     <Layout>
       <Component {...pageProps} />;

@@ -19,12 +19,10 @@ export default function WhatIDo() {
                         {/* Section title */}
                         <h2 class="bold mb-20">What I Do? </h2>
                         {/* Text */}
-                        <p class="light opas mb-15">Hello there!</p>
+                        <p class="light opas mb-15">Well...</p>
                         {/* Text */}
                         <p class="light opas mb-30">
-                            My name is Ronnie Lutalo, a Software Engineer, Designer & CG Artist.
-                            Well, obviously there&apos;s much more to me than just a few fancy titles that don&apos;t 
-                            really mean anything, hahah...
+                            My name is Ronnie Lutalo, a Software Engineer, Designer & CG Artist from Kampala, Uganda.
                             Over time I&apos;ve worked on various projects involving Software Engineering, 
                             Design, Computer Graphics (2D/3D).
                             Most people believe Art and Science are separate fields. Of which that&apos;s academically correct

@@ -8,7 +8,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 import Link from 'next/link'
 import React from 'react'
-import SocialMediaButtons from '../UI/SocialMediaButtons';
+import { profile } from '../../data/profile';
 
 const date = new Date();
 const year = date.getFullYear();
@@ -67,8 +67,18 @@ export default function Footer() {
                 </div>
                 <div class="row copy">
                     <div class="col-12 col-lg-6 align-self-center mb-30">
+                        {/* Social Icons */}
                         <ul class="social">
-                            <SocialMediaButtons />
+                            {/* Social link */}
+                            <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+                            {/* Social link */}
+                            <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                            {/* Social link */}
+                            <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></li>
+                            {/* Social link */}
+                            <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+                            {/* Social link */}
+                            <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-lg-6 text-center text-md-left text-lg-right align-self-center mb-30">

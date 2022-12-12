@@ -8,7 +8,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 import Link from 'next/link'
 import React from 'react'
-import SocialMediaButtons from './SocialMediaButtons';
+import { profile } from '../../data/profile';
 
 export default function SideBarMenu() {
   return (
@@ -53,7 +53,16 @@ export default function SideBarMenu() {
                 {/* Social icons */}
                 <li>
                     <ul class="social mt-15">
-                        <SocialMediaButtons />
+                        {/* Social link */}
+                        <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+                        {/* Social link */}
+                        <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                        {/* Social link */}
+                        <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></li>
+                        {/* Social link */}
+                        <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+                        {/* Social link */}
+                        <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a></li>
                     </ul>
                 </li>
                 {/* Social icons end */}

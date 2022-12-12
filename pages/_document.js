@@ -15,7 +15,7 @@ export default function Document() {
       <Head>
         {/* Favicon  */}
         <Link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {/* Color of address bar in mobile browser */}
         <meta name="theme-color" content="#191923" />

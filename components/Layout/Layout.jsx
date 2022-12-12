@@ -1,13 +1,19 @@
 import React, { Fragment } from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
 
 const Layout = (props) => {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <div>{props.children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 };

@@ -12,7 +12,8 @@ export default function HeaderMenu() {
 			<li><Link href="#">Work <i className="fa fa-chevron-down"></i></Link>
 				<ul className="sub-menu left">
 					<li><Link href="#" className="dez-page">Engineering  </Link></li>
-					<li><Link href="#" className="dez-page">Design </Link></li>
+					<li><Link href="/work/web-design" className="dez-page">Web Design </Link></li>
+					<li><Link href="#" className="dez-page">Brand Design </Link></li>
 				</ul>
 			</li>
 			

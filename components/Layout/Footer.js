@@ -18,7 +18,7 @@ class Footer extends Component {
                                         <h5 className="m-b30 text-white">Work</h5>
                                         <ul>
 											<li><Link href="#">Engineering </Link></li>
-                                            <li><Link href="#">Design </Link></li>
+                                            <li><Link href="/work/design">Design </Link></li>
                                         </ul>
                                     </div>
                                 </div>

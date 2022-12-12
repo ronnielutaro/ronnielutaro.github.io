@@ -1,3 +1,11 @@
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
+
 // @see: https://ogp.me/
 
 export const siteURL = 'https://ronnielutalo.github.io/';

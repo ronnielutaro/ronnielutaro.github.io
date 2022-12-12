@@ -9,6 +9,7 @@ Portfolio:  https://ronnielutalo.github.io
 import React from "react";
 import CustomCursor from "../UI/CustomCursor";
 import PreLoader from "../UI/PreLoader";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Layout = (props) => {
@@ -18,6 +19,7 @@ const Layout = (props) => {
       <CustomCursor />
       <PreLoader />
       <div>{props.children}</div>
+      <Footer />
     </>
   );
 };

@@ -31,7 +31,7 @@ export default function Footer() {
                         {/* Logo end */}
                         {/* Footer text */}
                         <p class="light opas mb-30">Software Engineer | Designer | CG Artist </p>
-                        {/* Phone */}
+                        {/* email */}
                         <p class="cont light mb-10"><i class="color fas fa-envelope"></i><span class="color">email:</span> ronnielutaro@gmail.com</p>
                         {/* Adres */}
                         <p class="cont light"><i class="color fas fa-map-marker-alt"></i><span class="color">address:</span> Kampala, Uganda</p>

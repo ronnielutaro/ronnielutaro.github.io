@@ -43,7 +43,7 @@ export default function SideBarMenu() {
                 </li>
                 {/* Menu item */}
                 <li className="menu-item">
-                    <Link href="#" className="menu-link new-page-sidebar">Blog</Link>
+                    <Link href="/blog" className="menu-link new-page-sidebar">Blog</Link>
                 </li>
                 {/* Menu dropdown item end */}
                 <li className="menu-item">

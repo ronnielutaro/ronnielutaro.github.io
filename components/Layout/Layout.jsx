@@ -13,12 +13,11 @@ import SideBarMenu from '../UI/SideBarMenu'
 
 const Layout = (props) => {
   return (
-    <>
-      <CustomCursor />
+    <div>
       <SideBarMenu />
-      <div>{props.children}</div>
+        {props.children}
       <Footer />
-    </>
+    </div>
   );
 };
 

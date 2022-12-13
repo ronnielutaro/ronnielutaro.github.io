@@ -14,7 +14,7 @@ export const profile = {
   fullName: 'Ronnie Lutalo',
   position: 'Software Engineer | Designer | CG Artist',
   avatar: {
-    src: '/images/about/avatar_400x400.jpg',
+    src: '/images/people/pic1.jpg',
     alt: 'Professional Headshot of Ronnie Lutalo',
   },
   location: {

@@ -15,6 +15,7 @@ import {
     twitterUsername
 } from '../../constants/siteMeta';
 import BlogPostHeader from '../../components/UI/BlogPostHeader';
+import Link from 'next/link';
 
 export default function Post({ postData }) {
 
@@ -79,9 +80,9 @@ export default function Post({ postData }) {
                                 <hr className="mb-60" />
                                 <div className="text-center text-md-left">
                                     {/* Button */}
-                                    <a href="/blog" className="button margin-sm-bottom button-1 new-page">More publications <i className="fas fa-chevron-right"></i></a>
+                                    <Link href="/blog" className="button margin-sm-bottom button-1 new-page">More publications <i className="fas fa-chevron-right"></i></Link>
                                     {/* Button */}
-                                    <a href="#" className="button new-page-right">Next publication <i className="fas fa-chevron-right"></i></a>
+                                    <Link href="#" className="button new-page-right">Next publication <i className="fas fa-chevron-right"></i></Link>
                                 </div>
                             </div>
                         </div>

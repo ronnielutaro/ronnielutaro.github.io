@@ -9,16 +9,16 @@ Portfolio:  https://ronnielutalo.github.io
 import React from "react";
 import CustomCursor from "../UI/CustomCursor";
 import Footer from "./Footer";
-import SideBar from "./SideBar";
+import SideBarMenu from '../UI/SideBarMenu'
 
 const Layout = (props) => {
   return (
-    <div className="frame">
+    <>
       <CustomCursor />
-      <SideBar />
-        {props.children}
+      <SideBarMenu />
+      <div>{props.children}</div>
       <Footer />
-    </div>
+    </>
   );
 };
 

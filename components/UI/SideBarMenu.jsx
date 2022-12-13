@@ -10,10 +10,10 @@ import Link from 'next/link'
 import React from 'react'
 import { profile } from '../../data/profile';
 
-export default function SideBar() {
+export default function SideBarMenu() {
   return (
     <>
-        {/* Sidebar */}
+        {/* Sidebar Menu */}
         <div className="sidebar">
             {/* dotted background */}
             <div className="dots"></div>
@@ -69,7 +69,7 @@ export default function SideBar() {
             </ul>
             {/* Menu end */}
         </div>
-        {/* Sidebar end */}
+        {/* Sidebar Menu end */}
     </>
   )
 }

@@ -12,8 +12,8 @@ export default function CustomCursor() {
   return (
     <Fragment>
         {/* Custom cursor */}
-        <div class='cursor'></div>
-        <div class='cursor pet'></div>
+        <div className='cursor'></div>
+        <div className='cursor pet'></div>
         {/* Custom cursor end */}
     </Fragment>
   )

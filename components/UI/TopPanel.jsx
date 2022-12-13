@@ -1,3 +1,11 @@
+/* -------------------------------------------
+
+Name: 		ronnielutalo.github.io
+Author:		Ronnie Lutalo
+Portfolio:  https://ronnielutalo.github.io
+
+------------------------------------------- */
+
 import Link from 'next/link'
 import React from 'react'
 

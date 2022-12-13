@@ -33,55 +33,55 @@ export default function Post({ postData }) {
             <BlogPostHeader />
             {/* Post text */}
             <article>
-                <section class="project-text p-90-0-90">
-                    <div id="anchor-1" class="container">
-                        <div class="row">
-                            <div class="col-12 col-lg-2 text-center a-f">
+                <section className="project-text p-90-0-90">
+                    <div id="anchor-1" className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-2 text-center a-f">
                                 {/* Author */}
-                                <div class="review">
-                                    <div class="rv-cont">
-                                        <div class="avatar-sm">
+                                <div className="review">
+                                    <div className="rv-cont">
+                                        <div className="avatar-sm">
                                             {/* Author photo */}
                                             <picture>
                                                 <img src={profile.avatar.src} alt="author" />
                                             </picture>
                                         </div>
                                     </div>
-                                    <div class="rv-cont text-center">
+                                    <div className="rv-cont text-center">
                                         {/* Name */}
-                                        <p class="text-title mb-15">by {profile.fullName}</p>
+                                        <p className="text-title mb-15">by {profile.fullName}</p>
                                     </div>
                                 </div>
                                 {/* Author end */}
                                 {/* Date */}
-                                <p class="light opas mb-60"><Date dateString={postData.date} /> </p>
+                                <p className="light opas mb-60"><Date dateString={postData.date} /> </p>
                             </div>
-                            <div class="col-12 col-lg-10 a-f">
+                            <div className="col-12 col-lg-10 a-f">
                                 {/* Title */}
-                                <h2 class="bold mb-30">{postData.title}</h2>
+                                <h2 className="bold mb-30">{postData.title}</h2>
                                 {/* Text */}
-                                <div  class="light opas mb-30" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                                <div  className="light opas mb-30" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                             
                                 {/* Social icons */}
-                                <ul class="social mb-60">
+                                <ul className="social mb-60">
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
+                                    <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i classNameName="fab fa-twitter"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                                    <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i classNameName="fab fa-linkedin"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
+                                    <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i classNameName="fab fa-github"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
+                                    <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i classNameName="fab fa-instagram"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                                    <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i classNameName="fab fa-facebook"></i></a></li>
                                 </ul>
                                 {/* Social icons end */}
-                                <hr class="mb-60" />
-                                <div class="text-center text-md-left">
+                                <hr className="mb-60" />
+                                <div className="text-center text-md-left">
                                     {/* Button */}
-                                    <a href="/blog" class="button margin-sm-bottom button-1 new-page">More publications <i class="fas fa-chevron-right"></i></a>
+                                    <a href="/blog" className="button margin-sm-bottom button-1 new-page">More publications <i className="fas fa-chevron-right"></i></a>
                                     {/* Button */}
-                                    <a href="#" class="button new-page-right">Next publication <i class="fas fa-chevron-right"></i></a>
+                                    <a href="#" className="button new-page-right">Next publication <i className="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>

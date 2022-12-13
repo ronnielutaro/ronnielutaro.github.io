@@ -14,27 +14,27 @@ export default function BlogPostHeader() {
   return (
     <>
         {/* Header */}
-        <header id="header" class="header-sm">
+        <header id="header" className="header-sm">
             <TopPanel />
             {/* header background */}
-            <div class="header-bg" style={{ backgroundImage: "url(/images/portfolio/lg/2.jpg)", backgroundPosition: "center" }}>
+            <div className="header-bg" style={{ backgroundImage: "url(/images/portfolio/lg/2.jpg)", backgroundPosition: "center" }}>
                 {/* Gradient overlay */}
-                <div class="overlay"></div>
+                <div className="overlay"></div>
             </div>
             {/* header background end */}
-            <div class="container header-content">
-                <div class="main-title">
+            <div className="container header-content">
+                <div className="main-title">
                     {/* Main-title */}
-                    <h1 class="bold mb-30 a-f">Blog </h1>
+                    <h1 className="bold mb-30 a-f">Blog </h1>
                     {/* breadcrumbs */}
-                    <div class="breadcrumbs a-f">
+                    <div className="breadcrumbs a-f">
                         <ul>
                             {/* breadcrumbs link */}
                             <li><Link href="/">Home</Link></li>
                             {/* breadcrumbs link */}
                             <li><Link href="/blog">Blog</Link></li>
                             {/* Active page */}
-                            <li class="active">Blog Post</li>
+                            <li className="active">Blog Post</li>
                         </ul>
                     </div>
                     {/* breadcrumbs end */}

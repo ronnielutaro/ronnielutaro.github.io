@@ -38,42 +38,42 @@ export default function blog({ allPostsData }) {
         <ul>
             {allPostsData.map(({ id, date, title, summary, coverImage }) => (
                 <li key={id}>
-                <section class="project-text p-90-0-0">
-                <div id="anchor-1" class="container">
-                    <div class="row a-f">
-                        <div class="col-12 col-lg-2 text-center">
+                <section className="project-text p-90-0-0">
+                <div id="anchor-1" className="container">
+                    <div className="row a-f">
+                        <div className="col-12 col-lg-2 text-center">
                             {/* Author */}
-                            <div class="review">
-                                <div class="rv-cont">
-                                    <div class="avatar-sm">
+                            <div className="review">
+                                <div className="rv-cont">
+                                    <div className="avatar-sm">
                                         {/* Author photo */}
                                         <picture>
                                             <img src="/images/people/pic1.jpg" alt="author" />
                                         </picture>
                                     </div>
                                 </div>
-                                <div class="rv-cont">
+                                <div className="rv-cont">
                                     {/* Name */}
-                                    <p class="text-title mb-10">by {profile.fullName}</p>
+                                    <p className="text-title mb-10">by {profile.fullName}</p>
                                 </div>
                             </div>
                             {/* Author end */}
                             {/* Date */}
-                            <p class="light opas mb-60"><Date dateString={date} /></p>
+                            <p className="light opas mb-60"><Date dateString={date} /></p>
                         </div>
-                        <div class="col-12 col-lg-10">
+                        <div className="col-12 col-lg-10">
                             {/* Publication  cover */}
                             <picture>
-                                <img class="pub-cover mb-30" src={coverImage} alt="Publication cover" />
+                                <img className="pub-cover mb-30" src={coverImage} alt="Publication cover" />
                             </picture>
                             {/* Title */}
-                            <h2 class="bold mb-30">{title}</h2>
+                            <h2 className="bold mb-30">{title}</h2>
                             {/* Text */}
-                            <p class="light opas mb-30">{summary}</p>
-                            <hr class="mb-30" />
-                            <div class="text-center text-md-left">
+                            <p className="light opas mb-30">{summary}</p>
+                            <hr className="mb-30" />
+                            <div className="text-center text-md-left">
                                 {/* Button */}
-                                <Link href={`/blog/${id}`} class="button margin-sm-bottom button-1 new-page-in">Read more <i class="fas fa-chevron-right"></i></Link>
+                                <Link href={`/blog/${id}`} className="button margin-sm-bottom button-1 new-page-in">Read more <i className="fas fa-chevron-right"></i></Link>
                             </div>
                         </div>
                     </div>

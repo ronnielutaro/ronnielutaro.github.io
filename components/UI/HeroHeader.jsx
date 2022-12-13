@@ -7,14 +7,12 @@ Portfolio:  https://ronnielutalo.github.io
 ------------------------------------------- */
 
 import React from 'react'
-import TopPanel from './TopPanel'
 
 export default function HeroHeader() {
   return (
     <>
       {/* Header */}
       <header id="header" className="header">
-          <TopPanel />
           {/* header slideshow */}
           <div className="swiper-container swiper-header-slideshow">
               <div className="swiper-wrapper">

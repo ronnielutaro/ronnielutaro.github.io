@@ -17,6 +17,7 @@ import {
 } from '../constants/siteMeta';
 import CallToAction from '../components/UI/CallToAction';
 import WhatIDo from '../components/UI/WhatIDo';
+import Header from '../components/UI/Header';
 
 export default function index() {
   return (
@@ -31,6 +32,7 @@ export default function index() {
             <meta name="twitter:creator" content={twitterUsername} />
             <meta name="twitter:description" content={defaultSiteDescription} />
         </Head>
+        <Header />
         <WhatIDo />
         <CallToAction />
     </>

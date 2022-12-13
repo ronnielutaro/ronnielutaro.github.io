@@ -9,10 +9,10 @@ Portfolio:  https://ronnielutalo.github.io
 import Link from 'next/link'
 import React from 'react'
 
-export default function Header() {
+export default function HeroHeader() {
   return (
     <>
-        {/* Header */}
+        {/* HeroHeader */}
         <header id="header" className="header">
             {/* Top panel */}
             <div className="top-panel">
@@ -50,8 +50,8 @@ export default function Header() {
                     <h3 className="bold a-f mb-20">Ronnie<span className="color"> Lutalo</span></h3>
                     <h5 className="bold a-f mb-20">Software Engineer | Designer | CG Artist </h5>
                     <p className="mb-20">
-                                        Driven by desire and curiosity for creating Technology and Experiences <br/> that unlock new possibilities.
-                                    </p>
+                        Driven by desire and curiosity for creating Technology and Experiences <br/> that unlock new possibilities.
+                    </p>
                     <div className="main-title-buttons a-f">
                         {/* Button */}
                         <a href="#" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></a>
@@ -75,7 +75,7 @@ export default function Header() {
                 {/* Scroll hint end */}
             </div>
         </header>
-        {/* Header end */}
+        {/* HeroHeader end */}
     </>
   )
 }

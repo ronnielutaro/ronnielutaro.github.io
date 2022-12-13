@@ -13,7 +13,7 @@ import SideBar from "./SideBar";
 
 const Layout = (props) => {
   return (
-    <div class="frame">
+    <div className="frame">
       <CustomCursor />
       <SideBar />
         {props.children}

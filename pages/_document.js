@@ -14,7 +14,7 @@ export default function Document() {
     <Html>
       <Head>
         {/* Favicon  */}
-        <Link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <Link rel="shortcut icon" href="/images/favicon.ico" />
         <meta charSet="utf-8" />
         {/* Color of address bar in mobile browser */}
         <meta name="theme-color" content="#191923" />

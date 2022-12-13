@@ -6,6 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
+import Link from 'next/link'
 import React from 'react'
 import SideBarMenu from '../UI/SideBarMenu'
 
@@ -19,10 +20,12 @@ export default function Header() {
           <div className="top-panel">
               {/* Logo */}
               <div className="logo">
-                  <a href="index-2.html">
+                  <Link href="/">
                       {/* Image logo */}
-                      {/*<img style="width: 100px;" src="img/your_logo.png" alt="logo">*/}
-                  </a>
+                      <picture>
+                        <img src="images/logo.png" alt="logo"></img>
+                      </picture>
+                  </Link>
               </div>
               {/* Logo end */}
               {/* Page navigation */}

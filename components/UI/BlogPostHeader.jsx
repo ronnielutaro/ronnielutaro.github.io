@@ -8,14 +8,12 @@ Portfolio:  https://ronnielutalo.github.io
 
 import Link from 'next/link'
 import React from 'react'
-import TopPanel from './TopPanel'
 
 export default function BlogPostHeader() {
   return (
     <>
         {/* Header */}
-        <header id="header" className="header-sm">
-            <TopPanel />
+        <header id="header" className="header-sm">       
             {/* header background */}
             <div className="header-bg" style={{ backgroundImage: "url(/images/portfolio/lg/2.jpg)", backgroundPosition: "center" }}>
                 {/* Gradient overlay */}

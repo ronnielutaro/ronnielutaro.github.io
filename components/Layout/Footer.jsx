@@ -42,7 +42,7 @@ export default function Footer() {
                         {/* Footer list 1 */}
                         <ul>
                             {/* Footer list item */}
-                            <li className="footer-link mb-10"><Link href="#.">Home page</Link></li>
+                            <li className="footer-link mb-10"><Link href="/">Home page</Link></li>
                             {/* Footer list item */}
                             <li className="footer-link mb-10"><Link href="#.">About us</Link></li>
                             {/* Footer list item */}

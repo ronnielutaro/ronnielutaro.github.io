@@ -74,10 +74,13 @@ export default function about() {
                         <p className="light opas">
                             I spend alot of my time working on Algorithmic problems, coding solutions, doing software and
                             product designs or feeding my curiosity with personal research on both Art and Science topics 
-                            that may intrigue my mind at any particular moment in time. You can actually see some of my 
-                            <Link href="/work"> work/projects</Link> overview for more technical details and descriptions.
-                            Outside all that, you might find me <Link href="/blog">blogging</Link> or cheering my favorite sports team. 
-                            I&apos;m into Soccer and Formula One Racing at the moment. 
+                            that may intrigue my mind at any particular moment in time.
+                            I work with a number of tools, like C#, ASP.NET Core, SQL, Entity Framework Core, WPF,
+                            JavaScript/TypeScript, HTML, CSS, React.js/Next.js, Unity 3D Engine.
+                            You can actually see some of my <Link href="/work"> work/projects</Link> overview for 
+                            more technical details and descriptions.
+                            Outside all that, you might find me <Link href="/blog">blogging</Link> or 
+                            cheering my favorite sports team. I&apos;m into Soccer and Formula One Racing at the moment. 
                             A Huge fan of Sports teams like Sports Club Vipers, Manchester United, and Mercedes F1.
                         </p>
                         <br />

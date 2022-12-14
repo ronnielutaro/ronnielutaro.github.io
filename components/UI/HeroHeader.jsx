@@ -6,6 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
+import Link from 'next/link'
 import React from 'react'
 
 export default function HeroHeader() {
@@ -33,14 +34,14 @@ export default function HeroHeader() {
 				    </p>
                   <div className="main-title-buttons a-f">
                       {/* Button */}
-                      <a href="/contact" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></a>
+                      <Link href="/contact" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></Link>
                       {/* Button */}
-                      <a href="#anchor-1" className="button smooth-scroll">Discover Now <i className="fas fa-chevron-right"></i></a>
+                      <Link href="#anchor-1" className="button smooth-scroll">Discover Now <i className="fas fa-chevron-right"></i></Link>
                   </div>
               </div>
               {/* Scroll hint */}
               <div className="scroll-hint">
-                  <a href="#anchor-1" className="smooth-scroll">
+                  <Link href="#anchor-1" className="smooth-scroll">
                       {/* Mouse */}
                       <div className="mouse">
                           {/* Finger */}
@@ -49,7 +50,7 @@ export default function HeroHeader() {
                       {/* Mouse end */}
                       {/* Hint text */}
                       <p>scroll down</p>
-                  </a>
+                  </Link>
               </div>
               {/* Scroll hint end */}
           </div>

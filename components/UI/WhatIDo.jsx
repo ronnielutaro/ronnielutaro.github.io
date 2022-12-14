@@ -25,17 +25,16 @@ export default function WhatIDo() {
                             My name is Ronnie Lutalo and I&apos;m a Software Engineer, Designer & CG Artist from Kampala, Uganda.
                             Over time I&apos;ve worked on various projects involving Software Engineering, 
                             Design, Computer Graphics (2D/3D).
-                            Most people believe Art and Science are separate fields. Of which that&apos;s academically correct
-                            but I personally believe everything is connected to everything else. 
+                            Most people believe Art and Science are separate fields, which is academically correct
+                            but personally, believe everything is connected to everything else. 
                             Art & Science have no reason to be disconnected and that&apos;s
                             exactly how I view the world and approach life.
                             I mostly code using C# but also work with a few other Tools like ASP.NET Core, SQL,
                             Entity Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js,
                             Unity 3D Engine.
-                            Outside all that, you can find me blogging or cheering my favorite sports team.
                         </p>
                         {/* Button */}
-                        <a href="#" className="button button-1 new-page-right">More about Me <i className="fas fa-chevron-right"></i></a>
+                        <a href="/about" className="button button-1 new-page-right">More about Me <i className="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>

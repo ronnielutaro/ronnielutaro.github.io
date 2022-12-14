@@ -24,8 +24,10 @@ export default function Footer() {
                     <div className="col-12 col-md-12 col-lg-8 mb-30">
                         {/* Logo */}
                         <div className="logo mb-30">
-                            <Link href="index-2.html" className="new-page">
-                                {/*<img style="width: 100px;" src="img/your_logo.png" alt="logo">*/}
+                            <Link href="/" className="new-page">
+                                <picture>
+                                    <img src="/images/logo.png" alt="logo" />
+                                </picture>
                             </Link>
                         </div>
                         {/* Logo end */}
@@ -44,13 +46,13 @@ export default function Footer() {
                             {/* Footer list item */}
                             <li className="footer-link mb-10"><Link href="/">Home page</Link></li>
                             {/* Footer list item */}
-                            <li className="footer-link mb-10"><Link href="#.">About us</Link></li>
+                            <li className="footer-link mb-10"><Link href="/about">About me</Link></li>
                             {/* Footer list item */}
-                            <li className="footer-link mb-10"><Link href="#.">Portfolio</Link></li>
+                            <li className="footer-link mb-10"><Link href="/work">Portfolio</Link></li>
                             {/* Footer list item */}
-                            <li className="footer-link mb-10"><Link href="#.">Blog</Link></li>
+                            <li className="footer-link mb-10"><Link href="/blog">Blog</Link></li>
                             {/* Footer list item */}
-                            <li className="footer-link mb-10"><Link href="#.">Get in touch</Link></li>
+                            <li className="footer-link mb-10"><Link href="/contact">Get in touch</Link></li>
                         </ul>
                         {/* Footer list 1 end */}
                     </div>
@@ -83,7 +85,7 @@ export default function Footer() {
                     </div>
                     <div className="col-12 col-lg-6 text-center text-md-left text-lg-right align-self-center mb-30">
                         {/* Copyright */}
-                        <p className="light"><span className="opas">Copyright © {year}. All rights reserved:</span> <a className="color" href="#">Ronnie Lutalo</a></p>
+                        <p className="light"><span className="opas">Copyright © {year}. All rights reserved:</span> <a className="color" href="/about">Ronnie Lutalo</a></p>
                     </div>
                 </div>
             </div>

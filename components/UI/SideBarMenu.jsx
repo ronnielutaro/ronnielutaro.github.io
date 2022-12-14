@@ -35,11 +35,11 @@ export default function SideBarMenu() {
                 </li>
                 {/* Menu item */}
                 <li className="menu-item">
-                    <Link href="#" className="menu-link new-page-sidebar">About</Link>
+                    <Link href="/about" className="menu-link new-page-sidebar">About</Link>
                 </li>
                 {/* Menu item */}
                 <li className="menu-item">
-                    <Link href="#" className="menu-link new-page-sidebar">Work</Link>
+                    <Link href="/work" className="menu-link new-page-sidebar">Work</Link>
                 </li>
                 {/* Menu item */}
                 <li className="menu-item">

@@ -928,8 +928,8 @@ footer {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
     box-shadow: 0px 10px 20px 0 rgba(20, 20, 30, 0.20);
 }
 

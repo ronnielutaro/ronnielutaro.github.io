@@ -27,7 +27,7 @@ export default function WhatIDo() {
                             Over time I&apos;ve worked on various projects involving Software Engineering, 
                             Design, Computer Graphics (2D/3D).
                             Most people believe Art and Science are separate fields, which is academically correct
-                            but personally, believe everything is connected to everything else. 
+                            but personally, I believe everything is connected to everything else. 
                             Art & Science have no reason to be disconnected and that&apos;s
                             exactly how I view the world and approach life.
                             I mostly code using C# but also work with a few other Tools like ASP.NET Core, SQL,

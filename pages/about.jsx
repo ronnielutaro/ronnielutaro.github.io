@@ -58,12 +58,12 @@ export default function about() {
                         <br />
                         {/* Text */}
                         <p className="light opas">
-                             I&apos;m passionate and always curious about both Art and Science. I personally believe everything in the universe
-                            is literally connected to everything else and appreciate it that way. I think we interact with both Art & Science 
+                            I&apos;m passionate and always curious about both Art and Science. I personally believe everything in the universe
+                            is literally connected to everything else. I think we interact with both Art & Science 
                             cocurrently almost without even noticing.
                             I often find my self working with sketches in my note books to visualize my ideas. From
                             Software Engineering projects, to my personal, non technical and design projects alike. I feel 
-                            that helps me think more clearly and critically. Similaryly, I could find my self
+                            that helps me think more clearly and critically. Similarly, I could find my self
                             trying to solve certain problems I&apos;ve encountered by maybe creating a Software Program for it or something. 
                             It&apos;s not quite obvious while at it until you ponder about your most recent actions, then you&apos;ll realize
                             how really everything is connected to everything else despite the way academia considers Art & Science to be distinct
@@ -81,13 +81,13 @@ export default function about() {
                             more technical details and descriptions.
                             Outside all that, you might find me <Link href="/blog">blogging</Link> or 
                             cheering my favorite sports team. I&apos;m into Soccer and Formula One Racing at the moment. 
-                            A Huge fan of Sports teams like Sports Club Vipers, Manchester United, and Mercedes F1.
+                            A Huge fan of Sports teams like SC Vipers, Manchester United, and Mercedes F1.
                         </p>
                         <br />
                         {/* Text */}
                         <p className="light opas mb-30">
                             Have an Idea you&apos;d like to share, suggest or collaborate with me on? Try leaving me a message. 
-                            I respond to all my messages. I&apos;m always excited to talk about Technology and Visual Arts 
+                            I respond to all my messages and I&apos;m always excited to talk about Technology and Visual Arts 
                             so feel free to reach out anytime.
                             The best way to reach me is through email - ronnielutaro@gmail.com and Direct messaging on Twitter or LinkedIn.
                         </p>

@@ -85,7 +85,7 @@ export default function Footer() {
                     </div>
                     <div className="col-12 col-lg-6 text-center text-md-left text-lg-right align-self-center mb-30">
                         {/* Copyright */}
-                        <p className="light"><span className="opas">Copyright © {year}. All rights reserved:</span> <a className="color" href="/about">Ronnie Lutalo</a></p>
+                        <p className="light"><span className="opas">Copyright © {year}. All rights reserved:</span> <Link className="color" href="/about">Ronnie Lutalo</Link></p>
                     </div>
                 </div>
             </div>

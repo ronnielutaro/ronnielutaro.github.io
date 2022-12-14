@@ -6,6 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
+import Link from 'next/link'
 import React from 'react'
 
 export default function WhatIDo() {
@@ -34,7 +35,7 @@ export default function WhatIDo() {
                             Unity 3D Engine.
                         </p>
                         {/* Button */}
-                        <a href="/about" className="button button-1 new-page-right">More about Me <i className="fas fa-chevron-right"></i></a>
+                        <Link href="/about" className="button button-1 new-page-right">More about Me <i className="fas fa-chevron-right"></i></Link>
                     </div>
                 </div>
             </div>

@@ -26,6 +26,8 @@ export default function Document() {
         <script src="/lib/plugins/jquery.min.js" async />
         {/* Anime */}
         <script src="/lib/plugins/anime.min.js" async />
+        {/* Swiper */}
+        <script src="/lib/plugins/swiper.min.js" async />
         {/* Smooth scroll */}
         <script src="/lib/plugins/smooth-scroll.min.js" async />
         {/* Howler */}

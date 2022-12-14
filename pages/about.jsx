@@ -84,7 +84,7 @@ export default function about() {
                         {/* Text */}
                         <p className="light opas mb-30">
                             Have an Idea you&apos;d like to share, suggest or collaborate with me on? Try leaving me a message. 
-                            I always respond to all my messages. I&apos;m always excited to talk about Technology and Visual Arts 
+                            I respond to all my messages. I&apos;m always excited to talk about Technology and Visual Arts 
                             so feel free to reach out anytime.
                             The best way to reach me is through email - ronnielutaro@gmail.com and Direct messaging on Twitter or Instagram.
                         </p>

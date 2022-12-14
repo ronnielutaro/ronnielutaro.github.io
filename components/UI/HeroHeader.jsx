@@ -33,7 +33,7 @@ export default function HeroHeader() {
 				    </p>
                   <div className="main-title-buttons a-f">
                       {/* Button */}
-                      <a href="#" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></a>
+                      <a href="/contact" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></a>
                       {/* Button */}
                       <a href="#anchor-1" className="button smooth-scroll">Discover Now <i className="fas fa-chevron-right"></i></a>
                   </div>

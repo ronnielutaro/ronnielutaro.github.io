@@ -48,7 +48,7 @@ export default function SideBarMenu() {
                 {/* Menu dropdown item end */}
                 <li className="menu-item">
                     {/* Menu link */}
-                    <Link href="#" className="menu-link new-page-sidebar">Contact</Link>
+                    <Link href="/contact" className="menu-link new-page-sidebar">Contact</Link>
                 </li>
                 {/* Social icons */}
                 <li>

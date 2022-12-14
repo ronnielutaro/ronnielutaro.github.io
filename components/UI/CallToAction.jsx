@@ -6,6 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
+import Link from 'next/link'
 import React from 'react'
 
 export default function CallToAction() {
@@ -19,7 +20,7 @@ export default function CallToAction() {
                 <h2 className="bold mb-30">Let&apos;s get in touch </h2>
                 <p className="light opas mb-30">Drop me a line for inquiries, collaborations, speaking engagements, or just to say hello. <br /> I&apos;m always excited to meet new people. <br />Almost all the time!</p>
                 {/* Button */}
-                <a href="#" className="button button-1 new-page mb-30">Contact Me <i className="fas fa-chevron-right"></i></a>
+                <Link href="/contact" className="button button-1 new-page mb-30">Contact Me <i className="fas fa-chevron-right"></i></Link>
             </div>
         </div>
         {/* Gradient overlay end */}

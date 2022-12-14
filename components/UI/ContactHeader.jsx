@@ -9,7 +9,7 @@ Portfolio:  https://ronnielutalo.github.io
 import Link from 'next/link'
 import React from 'react'
 
-export default function BlogPostHeader() {
+export default function ContactHeader() {
   return (
     <>
         {/* Header */}
@@ -23,16 +23,14 @@ export default function BlogPostHeader() {
             <div className="container header-content">
                 <div className="main-title">
                     {/* Main-title */}
-                    <h1 class="bold mb-30 a-f">Personal <span class="color">Blog</span></h1>
+                    <h1 class="bold mb-30 a-f"><span class="color">Get</span> in Touch</h1>
                     {/* breadcrumbs */}
                     <div className="breadcrumbs a-f">
                         <ul>
                             {/* breadcrumbs link */}
                             <li><Link href="/">Home</Link></li>
-                            {/* breadcrumbs link */}
-                            <li><Link href="/blog">Blog</Link></li>
                             {/* Active page */}
-                            <li className="active">Blog Post</li>
+                            <li className="active">Contact</li>
                         </ul>
                     </div>
                     {/* breadcrumbs end */}

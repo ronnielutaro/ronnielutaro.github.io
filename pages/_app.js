@@ -6,12 +6,15 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
-import React,  { useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.css'; 
+import React, { useEffect } from "react";
+{/* Bootstrap */}
+import '../styles/bootstrap.min.css';
 {/* Main */}
 import '../styles/main.css';
 {/* Font Awesome */}
 import '../styles/font-awesome.css';
+{/* Swiper */}
+import '../styles/swiper.min.css';
 {/* Elements */}
 import '../styles/elements.css';
 {/* Media queries */}
@@ -21,9 +24,6 @@ import '../styles/overlay-color/blue.css';
 import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-      import("bootstrap/dist/js/bootstrap");
-  }, []);
   
   return (
     <Layout>

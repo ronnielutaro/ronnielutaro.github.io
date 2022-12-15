@@ -319,34 +319,6 @@ $(function () {
         easing: 'easeInOutSine'
     });
 
-    // Sound fx after click in
-    $('.menu-open, .menu-link, .more, .button, .smooth-scroll, .circle-button, .swiper-prev, .swiper-next, .swiper-pagination-bullet').addClass('mellotron-in');
-
-    $(".mellotron-in").on('click', function () {
-        var sound = new Howl({
-            src: ['sound-fx/mellotron-in.mp3'],
-            autoplay: true,
-            volume: .5,
-            onend: function () {
-                console.log('Finished!');
-            }
-        });
-    });
-
-    // Sound fx after click out
-    $('.menu-close, .menu-item ul li, .filter .default-link').addClass('mellotron-out');
-
-    $(".mellotron-out").on('click', function () {
-        var sound = new Howl({
-            src: ['sound-fx/mellotron-out.mp3'],
-            autoplay: true,
-            volume: .5,
-            onend: function () {
-                console.log('Finished!');
-            }
-        });
-    });
-
     //smooth scroll
     $('.smooth-scroll').on("click", function () {
         $('html, body').stop().animate({
@@ -379,93 +351,6 @@ $(function () {
         } else {
             $(this).removeClass('not-empty');
         }
-    });
-
-    // Swiper header slideshow
-    var swiperSlideshow = new Swiper('.swiper-header-slideshow', {
-        centeredSlides: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        effect: 'fade',
-        speed: 1000,
-    });
-
-    // Swiper fullscreen slider
-    var swiperFullscreenSlider = new Swiper('.swiper-fullscreen-slider', {
-        parallax: true,
-        centeredSlides: true,
-        speed: 1000,
-        mousewheel: {
-            enable: true
-        },
-        navigation: {
-            nextEl: '.swiper-next',
-            prevEl: '.swiper-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        keyboard: {
-            enabled: true
-        },
-    });
-
-    // Swiper carousel slider
-    var swiperCarouselSlider = new Swiper('.swiper-carousel-slider', {
-        parallax: true,
-        loop: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        speed: 1000,
-        mousewheel: {
-            enable: true
-        },
-        navigation: {
-            nextEl: '.swiper-next',
-            prevEl: '.swiper-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        keyboard: {
-            enabled: true
-        },
-    });
-
-    // Swiper single project slider
-    var swiperProject = new Swiper('.swiper-project', {
-        slidesPerView: '2',
-        spaceBetween: 30,
-        speed: 1000,
-        navigation: {
-            nextEl: '.swiper-next',
-            prevEl: '.swiper-prev',
-        },
-        breakpoints: {
-            767: {
-                slidesPerView: '1',
-            }
-        },
-    });
-
-    // Swiper reviews slider
-    var swiperReviews = new Swiper('.swiper-reviews', {
-        allowTouchMove: true,
-        slidesPerView: '1',
-        grabCursor: true,
-        parallax: true,
-        preventClicks: true,
-        spaceBetween: 30,
-        keyboardControl: true,
-        speed: 1000,
-        pagination: {
-            el: '.reviews-pag',
-            clickable: true,
-        },
     });
 
     // Contact form

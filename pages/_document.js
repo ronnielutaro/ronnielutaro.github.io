@@ -38,8 +38,6 @@ export default function Document() {
         <script src="/lib/plugins/tilt.jquery.js" async />
         {/* Waypoints */}
         <script src="/lib/plugins/waypoint.js" async />
-        {/* Bootstrap */}
-        <script src="/lib/plugins/bootstrap.min.js" async />
         {/* Main */}
         <script src="/lib/main.js" async />
         {/* ronnie-theme js */}

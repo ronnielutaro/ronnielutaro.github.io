@@ -17,8 +17,6 @@ export default function Footer() {
   return (
     <>
         <footer className="footer p-90-0-60">
-            {/* dotted background */}
-            <div className="dots"></div>
             <div className="container text-center text-md-left">
                 <div className="row text-center text-md-left footer-content mb-30">
                     <div className="col-12 col-md-12 col-lg-8 mb-30">

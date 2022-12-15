@@ -6,9 +6,8 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
-import React from "react";
-{/* Bootstrap */}
-import '../styles/bootstrap.min.css';
+import React,  { useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.css'; 
 {/* Main */}
 import '../styles/main.css';
 {/* Font Awesome */}
@@ -26,6 +25,10 @@ import '../styles/ronnie-theme.css';
 import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+      import("bootstrap/dist/js/bootstrap");
+  }, []);
+  
   return (
     <Layout>
       <Component {...pageProps} />;

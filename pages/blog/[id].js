@@ -66,15 +66,15 @@ export default function Post({ postData }) {
                                 {/* Social icons */}
                                 <ul className="social mb-60">
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i classNameName="fab fa-twitter"></i></a></li>
+                                    <li><a href={profile.socialLinks.Twitter} target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i classNameName="fab fa-linkedin"></i></a></li>
+                                    <li><a href={profile.socialLinks.LinkedIn} target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i classNameName="fab fa-github"></i></a></li>
+                                    <li><a href={profile.socialLinks.GitHub} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i classNameName="fab fa-instagram"></i></a></li>
+                                    <li><a href={profile.socialLinks.Instagram} target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
                                     {/* Social link */}
-                                    <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i classNameName="fab fa-facebook"></i></a></li>
+                                    <li><a href={profile.socialLinks.Facebook} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                                 </ul>
                                 {/* Social icons end */}
                                 <hr className="mb-60" />

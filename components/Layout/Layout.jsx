@@ -14,7 +14,7 @@ const Layout = (props) => {
   return (
     <div>
       <SideBarMenu />
-      <div id="page-wrapper" class="page-wrapper">
+      <div id="page-wrapper" className="page-wrapper">
         {props.children}
       </div>
       <Footer />

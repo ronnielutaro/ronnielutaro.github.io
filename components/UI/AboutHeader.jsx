@@ -23,7 +23,7 @@ export default function AboutHeader() {
             <div className="container header-content">
                 <div className="main-title">
                     {/* Main-title */}
-                    <h1 class="bold mb-30 a-f">About <span class="color">Me</span></h1>
+                    <h1 className="bold mb-30 a-f">About <span className="color">Me</span></h1>
                     {/* breadcrumbs */}
                     <div className="breadcrumbs a-f">
                         <ul>

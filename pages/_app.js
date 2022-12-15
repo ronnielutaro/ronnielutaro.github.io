@@ -12,8 +12,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/main.css';
 {/* Font Awesome */}
 import '../styles/font-awesome.css';
-{/* Swiper */}
-import '../styles/swiper.min.css';
 {/* Elements */}
 import '../styles/elements.css';
 {/* Media queries */}

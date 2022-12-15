@@ -23,7 +23,7 @@ export default function BlogHeader() {
             <div className="container header-content">
                 <div className="main-title">
                     {/* Main-title */}
-                    <h1 class="bold mb-30 a-f">Personal <span class="color">Blog</span></h1>
+                    <h1 className="bold mb-30 a-f">Personal <span className="color">Blog</span></h1>
                     {/* breadcrumbs */}
                     <div className="breadcrumbs a-f">
                         <ul>

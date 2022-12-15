@@ -23,7 +23,7 @@ export default function ContactHeader() {
             <div className="container header-content">
                 <div className="main-title">
                     {/* Main-title */}
-                    <h1 class="bold mb-30 a-f"><span class="color">Get</span> in Touch</h1>
+                    <h1 className="bold mb-30 a-f"><span className="color">Get</span> in Touch</h1>
                     {/* breadcrumbs */}
                     <div className="breadcrumbs a-f">
                         <ul>

@@ -20,8 +20,6 @@ import '../styles/elements.css';
 import '../styles/media-queries.css';
 import '../styles/primary-color/coral.css';
 import '../styles/overlay-color/blue.css';
-{/* ronnie-theme css */}
-import '../styles/ronnie-theme.css';
 import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }) {

@@ -20,15 +20,6 @@ export default function Footer() {
             <div className="container text-center text-md-left">
                 <div className="row text-center text-md-left footer-content mb-30">
                     <div className="col-12 col-md-12 col-lg-8 mb-30">
-                        {/* Logo */}
-                        <div className="logo mb-30">
-                            <Link href="/" className="new-page">
-                                <picture>
-                                    <img src="/images/logo.png" alt="logo" />
-                                </picture>
-                            </Link>
-                        </div>
-                        {/* Logo end */}
                         {/* Footer text */}
                         <p className="light opas mb-30">Software Engineer | Designer | CG Artist </p>
                         {/* email */}

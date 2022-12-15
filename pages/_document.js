@@ -38,8 +38,6 @@ export default function Document() {
         <script src="/lib/plugins/waypoint.js" async />
         {/* Main */}
         <script src="/lib/main.js" async />
-        {/* ronnie-theme js */}
-        <script src="/lib/ronnie-theme.js" async />
       </body>
     </Html>
   )

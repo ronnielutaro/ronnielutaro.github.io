@@ -8,7 +8,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 import React, { useEffect } from "react";
 {/* Bootstrap */}
-import 'bootstrap/dist/css/bootstrap.css'; 
+import '../styles/bootstrap.min.css';
 {/* Main */}
 import '../styles/main.css';
 {/* Font Awesome */}
@@ -24,9 +24,6 @@ import '../styles/overlay-color/blue.css';
 import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
-  }, []);
   
   return (
     <Layout>

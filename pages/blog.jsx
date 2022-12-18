@@ -19,6 +19,7 @@ import Date from '../components/UI/Date';
 import { profile } from '../data/profile';
 import { getSortedPostsData } from '../helpers/posts'
 import BlogHeader from '../components/UI/BlogHeader';
+import Image from 'next/image';
 
 export default function blog({ allPostsData }) {
   return (
@@ -47,9 +48,7 @@ export default function blog({ allPostsData }) {
                                         <div className="rv-cont">
                                             <div className="avatar-sm">
                                                 {/* Author photo */}
-                                                <picture>
-                                                    <img src="/images/people/pic1.jpg" alt="author" />
-                                                </picture>
+                                                <Image src="/images/people/pic1.jpg" alt="author" />
                                             </div>
                                         </div>
                                         <div className="rv-cont">
@@ -63,9 +62,7 @@ export default function blog({ allPostsData }) {
                                 </div>
                                 <div className="col-12 col-lg-10">
                                     {/* Publication  cover */}
-                                    <picture>
-                                        <img className="pub-cover mb-30" src={coverImage} alt="Publication cover" />
-                                    </picture>
+                                    <Image className="pub-cover mb-30" src={coverImage} alt="Publication cover" />
                                     {/* Title */}
                                     <h2 className="bold mb-30">{title}</h2>
                                     {/* Text */}

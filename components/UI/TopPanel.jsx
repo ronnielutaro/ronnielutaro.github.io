@@ -6,6 +6,7 @@ Portfolio:  https://ronnielutalo.github.io
 
 ------------------------------------------- */
 
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -18,9 +19,7 @@ export default function TopPanel() {
             <div className="logo">
                 <Link href="/">
                     {/* Image logo */}
-                    <picture>
-                    <img src="images/logo.png" alt="logo"></img>
-                    </picture>
+                    <Image src="images/logo.png" alt="logo" />
                 </Link>
             </div>
             {/* Logo end */}

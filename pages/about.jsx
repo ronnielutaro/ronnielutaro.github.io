@@ -18,6 +18,7 @@ import {
 import Link from 'next/link';
 import AboutHeader from '../components/UI/AboutHeader';
 import CallToAction from '../components/UI/CallToAction';
+import Image from 'next/image'
 
 export default function about() {
   return (
@@ -45,9 +46,7 @@ export default function about() {
                             <div className="rv-cont">
                                 <div className="avatar-lg">
                                     {/* Author photo */}
-                                    <picture>
-                                        <img src={profile.avatar.src} alt="author" />
-                                    </picture>
+                                    <Image src={profile.avatar.src} alt="author" />
                                 </div>
                             </div>
                         </div>

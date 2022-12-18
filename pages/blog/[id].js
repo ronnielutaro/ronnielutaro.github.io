@@ -16,7 +16,6 @@ import {
 } from '../../constants/siteMeta';
 import BlogPostHeader from '../../components/UI/BlogPostHeader';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Post({ postData }) {
 
@@ -44,7 +43,9 @@ export default function Post({ postData }) {
                                     <div className="rv-cont">
                                         <div className="avatar-sm">
                                             {/* Author photo */}
-                                            <Image src={profile.avatar.src} alt="author" />
+                                            <picture>
+                                                <img src={profile.avatar.src} alt="author" />
+                                            </picture>
                                         </div>
                                     </div>
                                     <div className="rv-cont text-center">

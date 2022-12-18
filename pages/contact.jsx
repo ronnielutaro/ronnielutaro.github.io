@@ -11,7 +11,6 @@ import Head from 'next/head';
 import { defaultSiteTitle, siteImage, twitterUsername, siteURL } from '../constants/siteMeta';
 import { profile } from '../data/profile';
 import ContactHeader from '../components/UI/ContactHeader';
-import Image from 'next/image';
 
 export default function contact() {
   return (
@@ -34,7 +33,9 @@ export default function contact() {
                     {/* Contact item */}
                     <div className="col-12 col-md-4 mb-30">
                         {/* Icon */}
-                        <Image src="/images/icons/i-location.svg" className="icon mb-30" alt="icon" />
+                        <picture>
+                            <img src="/images/icons/i-location.svg" className="icon mb-30" alt="icon" />
+                        </picture>
                         {/* Info */}
                         <p className="text-title mb-15">{profile.location.name}</p>
                         {/* Text */}
@@ -44,7 +45,9 @@ export default function contact() {
                     {/* Contact item */}
                     <div className="col-12 col-md-4 mb-30">
                         {/* Icon */}
-                        <Image src="/images/icons/i-message.svg" className="icon mb-30" alt="icon" />
+                        <picture>
+                            <img src="/images/icons/i-message.svg" className="icon mb-30" alt="icon" />
+                        </picture>
                         {/* Info */}
                         <p className="text-title mb-15">{profile.contact.email}</p>
                         {/* Text */}

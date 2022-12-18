@@ -35,7 +35,7 @@ export default function WhatIDo() {
                             Unity 3D Engine.
                         </p>
                         {/* Button */}
-                        <Link href="/about" className="button button-1 new-page-right">More about Me <i className="fas fa-chevron-right"></i></Link>
+                        <Link href="/about" className="button button-1 new-page-right" passHref>More about Me <i className="fas fa-chevron-right"></i></Link>
                     </div>
                 </div>
             </div>

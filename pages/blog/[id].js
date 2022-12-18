@@ -80,9 +80,9 @@ export default function Post({ postData }) {
                                 <hr className="mb-60" />
                                 <div className="text-center text-md-left">
                                     {/* Button */}
-                                    <Link href="/blog" className="button margin-sm-bottom button-1 new-page">More publications <i className="fas fa-chevron-right"></i></Link>
+                                    <Link href="/blog" className="button margin-sm-bottom button-1 new-page" passHref>More publications <i className="fas fa-chevron-right"></i></Link>
                                     {/* Button */}
-                                    <Link href="#" className="button new-page-right">Next publication <i className="fas fa-chevron-right"></i></Link>
+                                    <Link href="#" className="button new-page-right" passHref>Next publication <i className="fas fa-chevron-right"></i></Link>
                                 </div>
                             </div>
                         </div>

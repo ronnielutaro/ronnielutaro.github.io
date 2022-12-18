@@ -73,7 +73,7 @@ export default function blog({ allPostsData }) {
                                     <hr className="mb-30" />
                                     <div className="text-center text-md-left">
                                         {/* Button */}
-                                        <Link href={`/blog/${id}`} className="button margin-sm-bottom button-1 new-page-in">Read more <i className="fas fa-chevron-right"></i></Link>
+                                        <Link href={`/blog/${id}`} className="button margin-sm-bottom button-1 new-page-in" passHref>Read more <i className="fas fa-chevron-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

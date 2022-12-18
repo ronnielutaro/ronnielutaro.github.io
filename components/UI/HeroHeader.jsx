@@ -34,14 +34,14 @@ export default function HeroHeader() {
 				    </p>
                   <div className="main-title-buttons a-f">
                       {/* Button */}
-                      <Link href="/contact" className="button button-1 margin-sm-bottom new-page">Contact Me <i className="fas fa-chevron-right"></i></Link>
+                      <Link href="/contact" className="button button-1 margin-sm-bottom new-page" passHref>Contact Me <i className="fas fa-chevron-right"></i></Link>
                       {/* Button */}
-                      <Link href="#anchor-1" className="button smooth-scroll">Discover Now <i className="fas fa-chevron-right"></i></Link>
+                      <Link href="#anchor-1" className="button smooth-scroll" passHref>Discover Now <i className="fas fa-chevron-right"></i></Link>
                   </div>
               </div>
               {/* Scroll hint */}
               <div className="scroll-hint">
-                  <Link href="#anchor-1" className="smooth-scroll">
+                  <Link href="#anchor-1" className="smooth-scroll" passHref>
                       {/* Mouse */}
                       <div className="mouse">
                           {/* Finger */}

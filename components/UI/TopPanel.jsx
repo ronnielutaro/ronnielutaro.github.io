@@ -17,7 +17,7 @@ export default function TopPanel() {
         <div className="top-panel">
             {/* Logo */}
             <div className="logo">
-                <Link href="/">
+                <Link href="/" passHref>
                     {/* Image logo */}
                     <Image src="images/logo.png" alt="logo" />
                 </Link>

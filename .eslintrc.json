@@ -1,7 +1,3 @@
 {
-  "extends": "next",
-  "rules": {
-    "@next/next/no-document-import-in-page": "off",
-    "react/no-unknown-property": "off"
-  }
+  "extends": "next/core-web-vitals"
 }

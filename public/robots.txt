@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ronnielutalo.github.io/sitemap.xml

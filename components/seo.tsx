@@ -1,8 +1,10 @@
 import { DefaultSeo } from "next-seo";
 
 const config = {
-  title: "Ronnie Lutalo - Software Engineer | Designer",
-  description: "I Design & Develop Products and Experiences",
+  title: "Ronnie Lutalo | Software Engineer | Designer",
+  description: `Personal Website & Blog where I share my 
+  thoughts & write about software engineering, animation techniques, 
+  design systems and more. I also talk about new & recent stuff I'm working on.`,
   openGraph: {
     type: "website",
     locale: "en_US",

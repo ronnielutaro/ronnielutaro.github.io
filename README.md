@@ -8,7 +8,7 @@ This is the code that powers my [Official Personal Website](https://ronnielutalo
 
 **Note:** Currently working on a major re-design for the entire website to improve the User Experience for everyone ultimately. During this process, the website may not behave as expected and a lot of regressions maybe experienced. Keep an eye on the next release.
 
-![ronnielutalo.github.io](https://ronnielutalo.github.io/images/og.jpg)
+![ronnielutalo.github.io](https://github.com/RonnieLutalo/ronnielutalo.github.io/tree/main/public/og.jpg)
 
 #### Tools Used 🚀
 

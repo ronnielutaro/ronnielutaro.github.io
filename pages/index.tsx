@@ -27,11 +27,6 @@ export default function Home({ posts, projects }: HomeProps) {
             style={{ "--index": 1 } as React.CSSProperties}
           >
             Software Engineer and Designer that enjoys building great Products from end to end.
-          </p>
-          <p
-            className="text-secondary animate-in"
-            style={{ "--index": 1 } as React.CSSProperties}
-          >
             If you&apos;re looking to explore some of my recent work then you&apos;re in the right place.
           </p>
           <Link href="/about" className="items-start underline"> More about me →</Link>

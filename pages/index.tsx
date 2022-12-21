@@ -21,13 +21,14 @@ export default function Home({ posts, projects }: HomeProps) {
     <>
       <div className="flex flex-col gap-20 md:gap-28">
         <div>
-          <h1 className="animate-in">Ronnie Lutalo</h1>
           <p
             className="text-secondary animate-in"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            Software Engineer and Designer that enjoys building great Products from end to end.
-            If you&apos;re looking to explore some of my recent work then you&apos;re in the right place.
+            Hi there! 👋 I&apos;m Ronnie Lutalo, a Software Engineer and Designer that enjoys building great Products from end to end.
+            This is where I share my thoughts and write about software engineering, animation techniques, design systems and more.
+            I also talk about new & recent stuff I&apos;m working on while sharing some lessons learnt along the way.
+            If you&apos;re also looking to explore some of my recent work, then you&apos;re in the right place!
           </p>
           <Link href="/about" className="items-start underline"> More about me →</Link>
         </div>

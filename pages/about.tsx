@@ -45,13 +45,12 @@ export default function About() {
           <div className="flex flex-col gap-6">
             <p>
               <em className="font-semibold">Hi there! 👋</em>&nbsp; I&apos;m Ronnie Lutalo,
-              Software Engineer and Designer that enjoys building great
-              Products from end to end.
+              a Software Engineer and Designer.
             </p>
             <p>
-              I&apos;m always curious about Art, Science, and People. Personally,
+              I&apos;m always curious about Art, Science, People and great Products. Personally,
               I believe everything in the universe is connected to everything else. 
-              Over time I&apos;ve worked on various projects involving Backend Services and UI Design.
+              Over time I&apos;ve worked on various projects involving Backend Services and Design Systems.
               Most people believe Art and Science are separate fields,
               which is academically correct, but personally,
               I believe Art & Science have no reason to be disconnected and that&apos;s exactly

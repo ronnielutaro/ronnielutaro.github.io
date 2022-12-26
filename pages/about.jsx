@@ -53,22 +53,21 @@ export default function about() {
                         </div>
                         {/* Text */}
                         <p className="light opas">
-                            Hi there! 👋 I&apos;m Ronnie Lutalo, a Software Engineer from Kampala - Uganda 
-                            with both Engineering and Project Management experience as a Leader and as an Individual Contributor. 
-                            Over time, I&apos;ve worked on various projects involving development of Backend Services, Windows Applications 
-                            and Full Stack Web Applications. I mostly code using C# but also use Tools like ASP.NET Core, SQL, Entity 
-                            Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js.
+                            Hi there! 👋 I&apos;m Ronnie Lutalo, a Software Engineer that enjoys building great Products from end. 
+                            I have experience with Software Development and Project Management both as a Leader and as an Individual 
+                            Contributor. Over time, I&apos;ve worked on various projects involving development of Backend Services, 
+                            Windows Applications and Full Stack Web Applications. I mostly code using C# but also use Tools like ASP.NET Core, 
+                            SQL, Entity Framework Core, WPF, JavaScript/TypeScript, HTML, CSS, React.js/Next.js.
                         </p>
                         <br />
                         {/* Text */}
                         <p className="light opas">
-                            Currently working on both commercial and Open Source Technology. 
-                            I enjoy building great Products from end to end. Also an Open Source enthusiast & Technical Lead 
-                            at Open Source Community Africa (OSCA) - Kampala where we are changing the narrative from having 
-                            Ugandans not only as users of technology but also as contributors. Occasionally, I also work as a Consultant 
-                            at United Nations Women with other experienced professionals to share Technical knowledge, experience and 
-                            Mentorship for the African Girls Can Code Initiative(AGCCI) aimed at empowering young girls across Africa 
-                            to become computer programmers, creators and designers.
+                            Currently working on both commercial and Open Source Technology. As an Enthusiast, 
+                            I engage both as a Contributor & Technical Lead at Open Source Community Africa (OSCA) - Kampala where 
+                            we are changing the narrative from having Ugandans not only as users of technology but also as contributors. 
+                            I also work as a Consultant at United Nations Women with other experienced professionals to share 
+                            Technical knowledge, experience and Mentorship for the African Girls Can Code Initiative (AGCCI) 
+                            aimed at empowering young girls across Africa to become computer programmers, creators and designers.
                         </p>
                         <br />
                         {/* Text */}

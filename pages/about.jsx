@@ -53,7 +53,7 @@ export default function about() {
                         </div>
                         {/* Text */}
                         <p className="light opas">
-                            Hi there! 👋 I&apos;m Ronnie Lutalo, a Software Engineer that enjoys building great Products from end. 
+                            Hi there! 👋 I&apos;m Ronnie Lutalo, a Software Engineer that enjoys building great Products from end to end. 
                             I have experience with Software Development and Project Management both as a Leader and as an Individual 
                             Contributor. Over time, I&apos;ve worked on various projects involving development of Backend Services, 
                             Windows Applications and Full Stack Web Applications. I mostly code using C# but also use Tools like ASP.NET Core, 

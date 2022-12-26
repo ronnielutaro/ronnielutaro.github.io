@@ -65,7 +65,7 @@ export default function about() {
                             Currently working on both commercial and Open Source Technology. As an Enthusiast, 
                             I engage both as a Contributor & Technical Lead at Open Source Community Africa (OSCA) - Kampala where 
                             we are changing the narrative from having Ugandans not only as users of technology but also as contributors. 
-                            I also work as a Consultant at United Nations Women with other experienced professionals to share 
+                            I also work as a Consultant at United Nations Women alongside other experienced professionals to share 
                             Technical knowledge, experience and Mentorship for the African Girls Can Code Initiative (AGCCI) 
                             aimed at empowering young girls across Africa to become computer programmers, creators and designers.
                         </p>

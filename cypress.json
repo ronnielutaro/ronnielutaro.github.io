@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://ronnielutalo.github.io",
+  "projectId": "zk1sui",
+  "retries": {
+    "runMode": 2
+  }
+}

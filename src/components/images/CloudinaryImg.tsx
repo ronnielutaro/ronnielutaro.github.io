@@ -1,4 +1,3 @@
-import { buildUrl } from 'cloudinary-build-url';
 import clsx from 'clsx';
 import Image from 'next/image';
 import * as React from 'react';
@@ -38,20 +37,6 @@ export default function CloudinaryImg({
 }: CloudinaryImgType) {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
 
-  const urlBlurred = buildUrl(publicId, {
-    cloud: {
-      cloudName: 'RonnieLutalo',
-    },
-    transformations: {
-      effect: {
-        name: 'blur:1000',
-      },
-      quality: 1,
-      rawTransformation: aspect
-        ? `c_fill,ar_${aspect.width}:${aspect.height},w_${width}`
-        : undefined,
-    },
-  });
   const url = publicId;
 
   const aspectRatio = aspect ? aspect.height / aspect.width : undefined;
@@ -87,7 +72,7 @@ export default function CloudinaryImg({
             inset: 0;
             filter: blur(20px);
             z-index: 0;
-            background-image: url(${urlBlurred});
+            background-image: url(${publicId});
             background-position: center center;
             background-size: 100%;
           }

@@ -30,8 +30,8 @@ export async function getFileBySlug(type: ContentType, slug: string) {
         'utf8'
       );
 
-  const { code, frontmatter } = await bundleMDX(source, {
-    xdmOptions(options) {
+  const { code, frontmatter } = await bundleMDX({source: source, 
+    mdxOptions(options, frontmatter) {
       options.remarkPlugins = [...(options?.remarkPlugins ?? []), remarkGfm];
       options.rehypePlugins = [
         ...(options?.rehypePlugins ?? []),

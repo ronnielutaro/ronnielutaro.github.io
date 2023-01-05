@@ -16,7 +16,6 @@ import useScrollSpy from '@/hooks/useScrollspy';
 import Accent from '@/components/Accent';
 import BlogCard from '@/components/content/blog/BlogCard';
 import SubscribeCard from '@/components/content/blog/SubscribeCard';
-import Comment from '@/components/content/Comment';
 import MDXComponents from '@/components/content/MDXComponents';
 import ReloadDevtool from '@/components/content/ReloadDevtool';
 import TableOfContents, {
@@ -197,10 +196,6 @@ export default function SingleBlogPage({
               url={`https://ronnielutalo.github.io/blog/${frontmatter.slug}`}
               title={frontmatter.title}
             />
-
-            <figure className='mt-12'>
-              <Comment key={frontmatter.slug} />
-            </figure>
 
             {populatedRecommendations.length > 0 && (
               <div className='mt-20'>

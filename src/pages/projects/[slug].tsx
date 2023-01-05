@@ -9,7 +9,6 @@ import { getFileBySlug, getFiles } from '@/lib/mdx';
 import useContentMeta from '@/hooks/useContentMeta';
 import useScrollSpy from '@/hooks/useScrollspy';
 
-import Comment from '@/components/content/Comment';
 import MDXComponents from '@/components/content/MDXComponents';
 import TableOfContents, {
   HeadingScrollSpy,
@@ -162,10 +161,6 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
                 </div>
               </aside>
             </section>
-
-            <figure className='mt-12'>
-              <Comment />
-            </figure>
 
             <div className='mt-8 flex flex-col items-start gap-4 md:flex-row-reverse md:justify-between'>
               <CustomLink

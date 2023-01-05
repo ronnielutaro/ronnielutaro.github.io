@@ -7,8 +7,8 @@ import 'react-image-lightbox/style.css';
 
 type CloudinaryImgType = {
   publicId: string;
-  height: string | number;
-  width: string | number;
+  height: number;
+  width: number;
   alt: string;
   title?: string;
   className?: string;

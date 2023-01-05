@@ -22,7 +22,7 @@ export default function Footer() {
         <SocialLinks />
 
         <p className='mt-8 mb-8 text-sm text-gray-600 dark:text-gray-300'>
-          Copyright © Ronnie Lutalo {new Date().getFullYear()}. All rights
+          Copyright © {new Date().getFullYear()} Ronnie Lutalo. All rights
           reserved.
         </p>
       </main>

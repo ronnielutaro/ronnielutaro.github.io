@@ -78,7 +78,6 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
             <div className='mt-2 flex flex-wrap items-center justify-start gap-3 text-sm font-medium text-gray-600 dark:text-gray-300'>
               <div className='flex items-center gap-1'>
                 <HiOutlineEye className='inline-block text-base' />
-                {meta?.views?.toLocaleString() ?? '–––'} views
               </div>
               {(frontmatter.github ||
                 frontmatter.youtube ||

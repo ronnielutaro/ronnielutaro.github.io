@@ -9,8 +9,7 @@ const defaultMeta = {
   description: `Software Engineer & Visual Artist from Kampala, Uganda driven by desire and curiosity for 
     building great Products and experiences from end to end. This website is where 
     I share my thoughts and write about Software Engineering, Windows Development, 
-    Product Development, Web Development, Visual Arts and more. 
-    If you're also interested in exploring my recent work, then you're in the right place!.`,
+    Product Development, Web Development, Visual Arts and more.`,
   url: 'https://ronnielutalo.github.io',
   image: 'https://ronnielutalo.github.io/favicon/large-og.jpg',
   type: 'website',

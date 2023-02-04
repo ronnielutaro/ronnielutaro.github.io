@@ -4,7 +4,7 @@
 
 ### Overview
 
-This is the code that powers my [Official Personal Portfolio Website](https://ronnielutalo.github.io)showcasing my work on Rendering & Simulation technology for Virtual Reality and Visual Effects while sharing thoughts, actionable tips and insights.
+This is the code that powers my [Official Personal Portfolio Website](https://ronnielutalo.github.io) showcasing my work on Rendering & Simulation technology for Virtual Reality and Visual Effects for film & television while sharing thoughts, actionable tips and insights.
 
 **Note:** Currently working on a major re-productDesign for the Website to improve the User Experience and more. During this process, the website may not behave as expected and you may experience some regressions. Keep an eye on the next release.
 

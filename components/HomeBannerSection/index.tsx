@@ -15,8 +15,9 @@ import { HomeBannerTypes } from './HomeBanner.types';
 
 function HomeBannerSection({ scrollToRef }: HomeBannerTypes) {
   const devDescrip =
-    `A Software Engineer from Kampala, Uganda focusing on Rendering and Simulation
-    technology for Virtual Reality and Visual Effects for Film & Television.`;
+    `A Software Engineer from Kampala, Uganda mostly working on 
+    Computer Graphics Technology with a focus on Rendering & Simulation for Virtual Reality 
+    and Visual Effects for film & television.`;
 
   const scrollDown = () => {
     if (scrollToRef.current) {

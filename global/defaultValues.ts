@@ -23,9 +23,10 @@ export const resumeLink = '#';
 export const callToAction =
   `
   Drop me a line for inquiries, collaborations, speaking engagements, or just to say hello.
-  I focus on Rendering and Simulation Technology for Virtual Reality and Visual Effects for Film & Television,
-  utilizing technologies such as C#, Unity 3D, Autodesk Maya and Adobe Suite.
-  `;
+  I mostly work on Computer Graphics Technology with a focus on Rendering & Simulation 
+  for Virtual Reality and Visual Effects for Film & Television, utilizing technologies such as C#, 
+  Unity 3D, Autodesk Maya, JavaScript and Adobe Suite.
+`;
 export const copyrightText = 'Copyright © 2023 Ronnie Lutalo, All rights reserved';
 export const copyrightUrl = 'https://ronnielutalo.github.io';
 export const aboutExcerpt =
@@ -63,8 +64,9 @@ export const skillList = [
 ];
 
 export const aboutMe = `
-My name is Ronnie Lutalo, a Software Engineer from Kampala, Uganda. 
-Mostly focusing on Rendering and Simulation Technology for Virtual Reality and Visual Effects for Film & Television.
+My name is Ronnie Lutalo, a Software Engineer from Kampala, Uganda 
+mostly working on Computer Graphics Technology with a focus on Rendering and Simulation 
+for Virtual Reality and Visual Effects for Film & Television.
 As child, I was always captivated by the world of art and spent countless hours drawing and exploring 
 different techniques. My passion for visual arts only grew stronger during my high school days as 
 I delved deeper into the work of great artists and engineers like Michelangelo and Leonardo Da Vinci. 
@@ -84,7 +86,7 @@ I’ve worked with startups, corporate organizations and established businesses
 for the past 5 years and I've acquired a deep understanding of the ever-changing technology 
 landscape and challenging markets. 
 I have experience working with a variety of technologies, including C#, Unity 3D,
-Autodesk Maya, Adobe Suit. 
+Autodesk Maya, JavaScript and Adobe Suit. 
 My portfolio showcases a proven track record of success in delivering products and
 experiences that are compelling and highly optimized for performance.
 
@@ -100,8 +102,9 @@ and Mercedes F1 Racing.
 
 export const portfolioDescription = 
   `I've been fortunate enough to work on exciting projects with exciting teams.
-  I mostly focus on Rendering & Simulation Technology for Virtual Reality and Visual Effects for Film
-  & Television. I also work on a few other project types like Web Development, Product Design and Windows Development. 
+  I mostly work on Computer Graphics Technology with a focus on Rendering & Simulation
+  for Virtual Reality and Visual Effects for Film & Television. 
+  I also work on a few other project types like Web Development, Product Design and Windows Development. 
   This section is where you can learn more about how I turn ideas into real life products behind the scenes. 
   `;
 

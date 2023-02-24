@@ -4,7 +4,7 @@
 
 ### Overview
 
-This is the code that powers my [Official Personal Portfolio Website](https://ronnielutalo.github.io) showcasing my work in Virtual Reality, Image Creation, Visual Effects and Animation while sharing actionable tips and insights. My portfolio showcases a proven track record of success in delivering tools and digital experiences that are highly optimized for performance. To explore my portfolio of work, [visit my portfolio](https://ronnielutalo.github.io/portfolio)
+This is the code that powers my [Official Personal Portfolio Website](https://ronnielutalo.github.io) showcasing my work in Image Creation, Visual Effects and Animation while sharing actionable tips and insights. My portfolio showcases a proven track record of success in delivering tools and digital experiences that are highly optimized for performance. To explore my portfolio of work, [visit my portfolio](https://ronnielutalo.github.io/portfolio)
 
 **Note:** Currently working on a major re-Design for the Website to improve the User Experience and more. During this process, the website may not behave as expected and you may experience some regressions. Keep an eye on the next release.
 

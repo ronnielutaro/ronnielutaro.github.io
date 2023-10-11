@@ -1,5 +1,7 @@
 ## Official Gazelle Motion Website
 
+[![Deploy Next.js site to Pages](https://github.com/GazelleMotion/gazellemotion.github.io/actions/workflows/nextjs-deployment.yaml/badge.svg)](https://github.com/GazelleMotion/gazellemotion.github.io/actions/workflows/nextjs-deployment.yaml)
+
 ### Overview
 
 This repository powers the [Official Website](https://gazellemotion.github.io) for Gazelle Motion, a cutting-edge media production company on a mission to redefine African Storytelling. To delve into the breadth of my work, feel free to explore our diverse [portfolio](https://gazellemotion.github.io/portfolio).

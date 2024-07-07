@@ -10,4 +10,4 @@ With over 5+ years of experience in the technology industry, I've worked extensi
 
 To delve into the breadth of my work, feel free to explore my diverse [portfolio](https://ronnielutalo.github.io/portfolio).
 
-**Note:** An exciting journey of transformation is underway as we work on a significant re-design for the website, aimed at elevating the User Experience and beyond. During this process, you might notice some deviations from the expected behavior and the possibility of encountering minor regressions. We invite you to anticipate the upcoming release, where these improvements will take center stage.
+**Note:** An exciting journey of transformation is underway as I work on a significant re-design for the website, aimed at elevating the User Experience and beyond. During this process, you might notice some deviations from the expected behavior and the possibility of encountering minor regressions. I invite you to anticipate the upcoming release, where these improvements will take center stage.

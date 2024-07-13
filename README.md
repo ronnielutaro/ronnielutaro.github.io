@@ -4,9 +4,9 @@
 
 ### Overview
 
-This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutalo. Software Engineer & Consultant Building Technology in Africa & helping Founders do the same. This is where I write all my Thoughts on software, building products, leadership, and other random stuff. Not structured.
+This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutalo. Software Engineer & Consultant Building Technology in Africa & helping Founders do the same. This is where I write all my Thoughts on software and building products.
 
-With over 5+ years of experience in the technology industry, I've worked extensively on different products with various product teams across East Africa as a Software Engineer at companies such as Andela, served as a Technical Lead at Open-Source Community Africa - Kampala, driving collaborative projects and community initiatives. Additionally, worked as a Consultant with the United Nations (UN Women) to implement the second phase of the African Girls Can Code Initiative (AGCCI) in Uganda.
+With over 5+ years of experience in the technology industry, I've worked extensively on different products with various product teams across East Africa as a Software Engineer at companies such as Andela, served as a Community Technical Lead at Open-Source Community Africa - Kampala, driving collaborative projects and community initiatives. Additionally, worked as a Consultant with the United Nations (UN Women) to implement the second phase of the African Girls Can Code Initiative (AGCCI) in Uganda.
 
 To delve into the breadth of my work, feel free to explore my diverse [portfolio](https://ronnielutalo.github.io/portfolio).
 

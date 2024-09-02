@@ -15,7 +15,7 @@ Currently at [StartHub Africa](https://starthubafrica.org/), he majorly works on
 [Connect with him](https://www.linkedin.com/in/ronnie-lutaro-b73240aa/) if you're currently:
 - An early-stage Founder seeking connection to valuable networks & resources for building your Tech Startup/Venture.
 - Interested in collaborating on cool projects.
-- A fellow enthusiast of Technology, Product Development, Cinematic Experience Innovation, Venture Building & Investments in Africa.
+- A fellow enthusiast of Cinematic Experience Innovation, Product Development & Investments in Africa.
 
 To delve into the breadth of his work, feel free to explore his diverse [portfolio](https://ronnielutaro.github.io/portfolio).
 

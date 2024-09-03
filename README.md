@@ -4,18 +4,18 @@
 
 ### Overview
 
-This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutaro. This is where he shares all his thoughts and learnings on Building Technology & Cinematic Experiences in Africa.
+This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutaro. This is where he shares all his thoughts and learnings on Building Technology & Cinematic Experiences, Venture Building, Pipeline Development & Investments in Africa.
 
-For over 5+ years, he's worked extensively on different products & projects with various engineering teams and organizations across East Africa. Additionally, he's had the honor to support successful implementation of Impactful projects like the African Girls Can Code Initiative (AGCCI) in Uganda as a Consultant for [United Nations (UN Women)](https://www.unwomen.org/en). 
+For over 5 years, he's had the privilege of working on diverse products and projects alongside various startups, engineering teams, and organizations across East Africa. His journey includes contributing to impactful initiatives like the African Girls Can Code Initiative (AGCCI) in Uganda, where he served as a Consultant for [United Nations (UN Women)](https://www.unwomen.org/en). 
 
-Fueling his drive is a deep passion for building great experiences, exceptional products, delivering impactful & massive projects that take things to a whole new level. He enjoys the challenge that comes from pushing the limits.
+What drives him is a deep passion for crafting exceptional experiences, building innovative products, and delivering transformative projects that elevate standards. he thrives on challenges that push boundaries and create meaningful impact.
 
-Currently at [StartHub Africa](https://starthubafrica.org/), he majorly works on building a sustainable pipeline of investable ventures in Uganda with a focus on Venture Support & Investments for Tech Startups.
+Currently at [StartHub Africa](https://starthubafrica.org/), he focusses on building a sustainable pipeline of investable ventures in Uganda, with a particular emphasis on venture support and investments for tech startups.
 
 [Connect with him](https://www.linkedin.com/in/ronnie-lutaro-b73240aa/) if you're currently:
-- An early-stage Founder seeking connection to valuable networks & resources for building your Tech Startup/Venture.
-- Interested in collaborating on cool projects.
-- A fellow enthusiast of Cinematic Experience Innovation, Product Development, Venture Building & Investments in Africa.
+- An early-stage founder looking to tap into valuable networks and resources for building your tech startup or venture.
+- Interested in collaborating on exciting and innovative projects.
+- A fellow enthusiast of cinematic experience innovation, product development, venture building, and investments in Africa.
 
 To delve into the breadth of his work, feel free to explore his diverse [portfolio](https://ronnielutaro.github.io/portfolio).
 

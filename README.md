@@ -4,7 +4,7 @@
 
 ### Overview
 
-This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutaro. This is where he shares all his thoughts and learnings on Building Technology & Cinematic Experiences, Venture Building & Investments in Africa.
+This repository powers the [Official Website](https://ronnielutalo.github.io) for Ronnie Lutaro. This is where he shares all his thoughts and learnings on Building Technology, Products & Cinematic Experiences in Africa.
 
 For over 5 years, he's had the privilege of working on diverse products and projects alongside various startups, engineering teams, and organizations across East Africa. His journey includes contributing to impactful initiatives like the African Girls Can Code Initiative (AGCCI) in Uganda, where he served as a Consultant for [United Nations (UN Women)](https://www.unwomen.org/en). 
 
